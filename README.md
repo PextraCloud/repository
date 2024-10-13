@@ -26,3 +26,7 @@ apt update
 ```
 
 From there, you can install any package from the repository using `apt install <package>`.
+
+## Development
+
+Please refer to [this page](https://wiki.debian.org/DebianRepository/Format) for an explanation of the repository's structure and how to add new packages.
