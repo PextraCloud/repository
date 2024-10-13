@@ -1,0 +1,10 @@
+Codename: bookworm
+Date: Sun, 13 Oct 2024 06:50:04 +0000
+Label: Pextra Inc.
+Origin: Pextra Inc.
+Suite: stable
+Version: 1.0
+Archive: stable
+Architecture: amd64
+Component: meta
+Acquire-By-Hash: no
