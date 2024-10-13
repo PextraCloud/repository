@@ -1,0 +1,34 @@
+Package: pcedaemon-ose
+Version: 0.0.0
+Architecture: all
+Maintainer: Pextra Inc. <debian@pextra.cloud>
+Installed-Size: 2133
+Conflicts: pce-enterprise, pcedaemon-enterprise
+Filename: pool/ose/pcedaemon-ose/pcedaemon-ose_0.0.0_all.deb
+Size: 467428
+MD5sum: 2e6cefb31d34dc5b955f426e166f2ea0
+SHA1: 71be5aeafb6ebf89a137374bab8f2a03cb1392ea
+SHA256: f5300ad6ffb11ea495de160ccd6537e4379ed763246cc4d697939b8eaa68bcbe
+Section: net
+Priority: optional
+Homepage: https://pextra.cloud/products/cloudenvironment
+Description: System daemon for Pextra CloudEnvironment (Open-Source Edition).
+ * This package is part of Pextra CloudEnvironment.
+
+Package: pceui-ose
+Version: 0.0.0
+Architecture: all
+Maintainer: Pextra Inc. <debian@pextra.cloud>
+Installed-Size: 2587
+Conflicts: pce-enterprise, pceui-enterprise
+Filename: pool/ose/pceui-ose/pceui-ose_0.0.0_all.deb
+Size: 785528
+MD5sum: 74b1ad1c556b201d2dbc4a132613188c
+SHA1: 4ab3a77860e94748467458f6b7078597a7d15097
+SHA256: d291ba3d0fa0638e84a39af3f4b3fa70fa5ca346558c674cdb26a57616d328f6
+Section: net
+Priority: optional
+Homepage: https://pextra.cloud/products/cloudenvironment
+Description: Web UI for Pextra CloudEnvironment (Open-Source Edition).
+ * This package is part of Pextra CloudEnvironment.
+

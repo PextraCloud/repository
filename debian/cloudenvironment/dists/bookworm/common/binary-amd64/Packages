@@ -1,0 +1,32 @@
+Package: pce-internal
+Version: 0.0.0
+Architecture: all
+Maintainer: Pextra Inc. <debian@pextra.cloud>
+Installed-Size: 302
+Filename: pool/common/pce-internal/pce-internal_0.0.0_all.deb
+Size: 65608
+MD5sum: 8a739fe8127035299f3602058348fe82
+SHA1: 367d99ebd108416059291d13c5e75bc85c971249
+SHA256: 33fb96e941560b1020711fc2171decb8239c2697d26718cd7cf51f40476fd81e
+Section: net
+Priority: optional
+Homepage: https://pextra.cloud/products/cloudenvironment
+Description: Package for managing certain internal components of Pextra CloudEnvironment.
+ * This package is part of Pextra CloudEnvironment.
+
+Package: pcecli
+Version: 0.0.0
+Architecture: all
+Maintainer: Pextra Inc. <debian@pextra.cloud>
+Installed-Size: 1224
+Filename: pool/common/pcecli/pcecli_0.0.0_all.deb
+Size: 266128
+MD5sum: 96c0babb9e3ddf60538c2ce5a61a840b
+SHA1: 19b44fe259772be0e792e3d788088ff8ab2f2e10
+SHA256: 10ec08f1651f7fd0fd4ce08dd6b5cf569181ce8c3e89e70aa2e9f6fc9fa2c372
+Section: admin
+Priority: optional
+Homepage: https://pextra.cloud/products/cloudenvironment
+Description: Command line interface for Pextra CloudEnvironment.
+ * This package is part of Pextra CloudEnvironment.
+

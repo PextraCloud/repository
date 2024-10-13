@@ -1,0 +1,35 @@
+Package: pce-common
+Version: 0.0.0
+Architecture: all
+Maintainer: Pextra Inc. <debian@pextra.cloud>
+Installed-Size: 41
+Depends: pcecli, pce-internal
+Filename: pool/meta/pce-common/pce-common_0.0.0_all.deb
+Size: 12232
+MD5sum: 4097b40531083b032c8a30e73888f96b
+SHA1: df149c3d15724c9378f6bf87b92d6c88dc4d19e4
+SHA256: 1f35e203ff0b191fe0e563f3ef3135f081a7b7129a3821e9e7312a2c39269d24
+Section: metapackages
+Priority: optional
+Homepage: https://pextra.cloud/products/cloudenvironment
+Description: Metapackage that installs common components of Pextra CloudEnvironment.
+ * This package is part of Pextra CloudEnvironment.
+
+Package: pce-ose
+Version: 0.0.0
+Architecture: all
+Maintainer: Pextra Inc. <debian@pextra.cloud>
+Installed-Size: 43
+Depends: pce-common, pcedaemon-ose, pceui-ose
+Conflicts: pce-enterprise, pcedaemon-enterprise, pceui-ose
+Filename: pool/meta/pce-ose/pce-ose_0.0.0_all.deb
+Size: 13000
+MD5sum: 93b02c9e8a9a366fe9503786e06ba350
+SHA1: b295e0c888ba5cedf0f588244631a55061d542fb
+SHA256: 24129d57ba7782f02d627869b4b770e2d4ebd820fb8af463ac76d9bde021255b
+Section: metapackages
+Priority: optional
+Homepage: https://pextra.cloud/products/cloudenvironment
+Description: Metapackage that installs Pextra CloudEnvironment Open-Source Edition.
+ * This package is part of Pextra CloudEnvironment.
+
