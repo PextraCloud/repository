@@ -12,21 +12,10 @@
 #
 # You should have received a copy of the GNU General Public License
 # along with this program. If not, see <https://www.gnu.org/licenses/>.
-.PHONY: update-repo
+.PHONY: clean update
 
-update-repo:
-	@echo "Updating Debian repository..."
-	@cd $(shell dirname $$0); \
+update:
+	./scripts/update.sh
 
-	@readonly BASEDIR=$$(pwd);
-	@readonly DEB_DIRECTORIES=$$(find ./debian -type f -name "*.deb" -exec dirname {} \; | sort -u);
-
-	@for directory in $$DEB_DIRECTORIES; do \
-		cd $$directory; \
-		dpkg-scanpackages . /dev/null | gzip -9c > Packages.gz; \
-		cd ..; \
-		apt-ftparchive release . > Release; \
-		cd $$BASEDIR; \
-		done;
-
-	@echo "Debian repository updated"
+clean:
+	./scripts/clean.sh
