@@ -2,6 +2,7 @@ etc/systemd/system/pcedaemon.service			    pcedaemon-ose
 usr/bin/pcedaemon					    pcedaemon-ose
 usr/lib/pce/pcedaemon-ose/index.js			    pcedaemon-ose
 usr/lib/pce/pcedaemon-ose/pcedaemon-ose			    pcedaemon-ose
+usr/lib/pce/pcedaemon-ose/sshcrypto-64pncz08.node	    pcedaemon-ose
 usr/lib/pce/pceui-ose/assets/Container-CFvvIFOQ.js	    pceui-ose
 usr/lib/pce/pceui-ose/assets/DcInfo-BQuGOfht.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/InfoCard-NKlOLE6P.js	    pceui-ose

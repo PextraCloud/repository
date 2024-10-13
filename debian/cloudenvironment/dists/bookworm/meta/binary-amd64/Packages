@@ -6,9 +6,9 @@ Installed-Size: 41
 Depends: pcecli, pce-internal
 Filename: pool/meta/pce-common/pce-common_0.0.0_amd64.deb
 Size: 12220
-MD5sum: 8c5f3b1f9a5abceee828f750173d8baa
-SHA1: f5744b97516cf79edc60bbbfe9c4c61267d3ad0c
-SHA256: 70faf01b1bf7349fb6716ad773de3a9bdc741fc998cb63ae77d5a13333b82207
+MD5sum: 9aa27bf6fd2a20d07193a3c9fba01505
+SHA1: eb90f02e9045ec000c690a1f260230026ad2a587
+SHA256: 0fdcac6ed7b761dc5ab738bc1ee855e2ea2dbb7f0293e8312a695f82b89a099c
 Section: metapackages
 Priority: optional
 Homepage: https://pextra.cloud/products/cloudenvironment
@@ -21,12 +21,12 @@ Architecture: amd64
 Maintainer: Pextra Inc. <debian@pextra.cloud>
 Installed-Size: 43
 Depends: pce-common, pcedaemon-ose, pceui-ose
-Conflicts: pce-enterprise, pcedaemon-enterprise, pceui-ose
+Conflicts: pce-enterprise, pcedaemon-enterprise, pceui-enterprise
 Filename: pool/meta/pce-ose/pce-ose_0.0.0_amd64.deb
-Size: 13000
-MD5sum: e28e8031cff34752de165f5dfc785ae1
-SHA1: 3676408ecaf03c7f9abe823e14bd32fb4ff2f969
-SHA256: d97becdb777e112def4638d0fa6f84117b61de346447971dcda80b4bfa7581ed
+Size: 12992
+MD5sum: a71257c68ec488b191f4902b993e0d6f
+SHA1: 25fc40211c4ea8bde0f3c12e2e39b2dca0cb4afb
+SHA256: b1ea573a03a8346392626b9286ef30740d8bb6fcc2fc637d84d53e7e8ef75bef
 Section: metapackages
 Priority: optional
 Homepage: https://pextra.cloud/products/cloudenvironment
