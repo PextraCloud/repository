@@ -4,3 +4,6 @@ APT::FTPArchive::Release::Suite "stable";
 APT::FTPArchive::Release::Codename "bookworm";
 APT::FTPArchive::Release::Version "1.0";
 APT::FTPArchive::Release::Components "common meta ose";
+APT::FTPArchive::Release::Architectures "amd64";
+APT::FTPArchive::Release::Description "Pextra Inc. Debian repository";
+APT::FTPArchive::Release::Acquire-By-Hash "no";
