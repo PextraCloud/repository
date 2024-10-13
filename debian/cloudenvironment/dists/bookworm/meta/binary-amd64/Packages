@@ -23,10 +23,10 @@ Installed-Size: 43
 Depends: pce-common, pcedaemon-ose, pceui-ose
 Conflicts: pce-enterprise, pcedaemon-enterprise, pceui-enterprise
 Filename: pool/meta/pce-ose/pce-ose_0.0.0_amd64.deb
-Size: 12992
-MD5sum: a71257c68ec488b191f4902b993e0d6f
-SHA1: 25fc40211c4ea8bde0f3c12e2e39b2dca0cb4afb
-SHA256: b1ea573a03a8346392626b9286ef30740d8bb6fcc2fc637d84d53e7e8ef75bef
+Size: 12996
+MD5sum: 30a138691fbbb0235252206e69cf736d
+SHA1: 06ac44ea17223261d82db7802914d55c5247262b
+SHA256: 85f02f45be09afdd5b8f74756ca898b2402f6a891c4e77b6e469bcfade480cb6
 Section: metapackages
 Priority: optional
 Homepage: https://pextra.cloud/products/cloudenvironment
