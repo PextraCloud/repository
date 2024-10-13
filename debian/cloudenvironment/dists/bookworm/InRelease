@@ -1,43 +1,49 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-Date: Sun, 13 Oct 2024 06:05:15 +0000
+Codename: bookworm
+Components: common meta ose
+Date: Sun, 13 Oct 2024 06:34:03 +0000
+Label: Pextra Inc.
+Origin: Pextra Inc.
+Suite: stable
+Version: 1.0
 MD5Sum:
- f1b6482af92b966e805945ea982455d9               38 Release
- 19c477985dd27d3a815d6958615cf71e              551 common/binary-amd64/Packages.gz
+ 6a7e7481aa63a6a4da2a0ec6a245c05b              151 Release
+ 169fdf29526675c3d366a49f04dd7854              551 common/binary-amd64/Packages.gz
  9791096bfaa02fb08abc5a181a12e1fb              624 common/binary-amd64/Packages.xz
- 5d0b41eca567ea1471b29107559c254f              595 meta/binary-amd64/Packages.gz
+ e0556162ed869e6a2415b4eee498767a              595 meta/binary-amd64/Packages.gz
  2dc3a35623072960d6903dddbbff98bb              668 meta/binary-amd64/Packages.xz
- 9d3974b364c5caff3520572948fcde92              563 ose/binary-amd64/Packages.gz
+ 19c3a0d1e23d16a271f63987fc3ed03a              563 ose/binary-amd64/Packages.gz
  7e77131af4fcd7dddc04ef5feb66ffd3              636 ose/binary-amd64/Packages.xz
 SHA1:
- ef6153def3daa12965bb3cd45eaa9857179bc6e8               38 Release
- a77f0f30f4f8860191d36325172da991430638fe              551 common/binary-amd64/Packages.gz
+ b5a3763bde7fa80f6937f2ef8ca5b7dfc8bf3d06              151 Release
+ 915cc0cfe2b833cce7adb17e911998bd350f5798              551 common/binary-amd64/Packages.gz
  d68e29b9df88129fe44fe1dea36c74289ac53fc8              624 common/binary-amd64/Packages.xz
- de67d2049ecc2c33b844ccba838160b8aed7b70c              595 meta/binary-amd64/Packages.gz
+ 4c57966d56a6bf8a76e9b7d54249b348b4f5d95c              595 meta/binary-amd64/Packages.gz
  fae15a226d22532dfd3f611747129709e78a87d5              668 meta/binary-amd64/Packages.xz
- de34e1ccd217f996125c2bd8dd8b2cea0df9b7c5              563 ose/binary-amd64/Packages.gz
+ d81ece2584dcb1b8458e573ea9a322e692cf6015              563 ose/binary-amd64/Packages.gz
  c7cf7b3b13490667125a3d8f42eb81419823af48              636 ose/binary-amd64/Packages.xz
 SHA256:
- e1e4c9f77138db2dc24abb6174ce0520766ffb1d5f195db87769b26634d4f505               38 Release
- d70d66d5fdd6b9c63718bb1375cc3cc0782a13f74b1a0ad06f72479194561b48              551 common/binary-amd64/Packages.gz
+ d5d8aa9a04cbd3d301eaf75d95f59d96ff67465df7f9fd6c10ffe216dfd1f12c              151 Release
+ b72a2ede456a94eaf5ff4e3afd515d473e127be2d592ff1f376b772854193943              551 common/binary-amd64/Packages.gz
  909a020596339b39ba951638d134906cb2382ebb2cf7da96ef96c6d0d74a440f              624 common/binary-amd64/Packages.xz
- 9cc9bfba8282d18c1908a434615d4e82fa8209434130b449ddcf0814498ed047              595 meta/binary-amd64/Packages.gz
+ 6ee636bf0b8a6344cab8dda8c3cfd00faed485f916ccb3f99c614a0df90cafee              595 meta/binary-amd64/Packages.gz
  fc52b5c3a0ffbc2c690744a77222cbdf4836ab401173ac6ed6a47efd17603a9a              668 meta/binary-amd64/Packages.xz
- a25d4a9083db0bd42e373c15c266a05da7bf15b5a8d965298d3dfb98015902e3              563 ose/binary-amd64/Packages.gz
+ 52873fdea5218653b62a2f7d53685fad8c3d6d0f087644c0bcfa1c8900a64999              563 ose/binary-amd64/Packages.gz
  424eb1968cd53d6b8890a43c69fcdc18b4d2d203a0b81690abee5285bf0c755d              636 ose/binary-amd64/Packages.xz
 SHA512:
- 2299046f70dd00abcc2e434c4f9b16015f933c6a7bc7bc0a9596e15ebbfd74e4f8398e72f2c54361b1f050e4befeb45c7bb3a5deefa3d25df78b368ee67997d6               38 Release
- 5398db9ab5c36deeb17120bed55278ac9f8728f3268cdae1bcecf8bcb46df5e36fb2a7d9ae26a535112a45997fbbb1c7dc135e87c816894072d3b39bddda3f50              551 common/binary-amd64/Packages.gz
+ 75fd1f674fda8672b68e8fbd6aa5709aa5bd770cc6723670689e9256b25c5963551932c3410cbbbfbbdfd32639fb4d5574178058deb4aefe55e5d1ac1ee6761e              151 Release
+ 9e2c049c27075dbe30d2f43e079f4f03aec1627ccde930964f1f9295b73e4c71e4b3342e8aca9f1984b5d9cda7e303f1fdb293efab816a617a6e83b00ed32575              551 common/binary-amd64/Packages.gz
  b6dad9c9e716d24250030d5cb1e9d9caa7d30a7e5aac8baed596696024c4dcbf3c65082286cb029b40880dbb64c843b485b6bbf87a2a4542d59f887517f17631              624 common/binary-amd64/Packages.xz
- a44073527975e8c71d94228d06ce74e94201325f1f5926641812ccc47584cd0848f3287b8369fefce9daec3ccdc743c90dd89edb9d8f9f4cf7139dc71c3a6489              595 meta/binary-amd64/Packages.gz
+ 1382806d4d977b7edcb93e4a051bcc870e9c28d6e58e6925c8c34e7b8dc690e88bfb25bf706785a9256e7e358897f648641a1e929a54acc0742525bb72b4caca              595 meta/binary-amd64/Packages.gz
  2cf0027b34adfc4260c56046f06d1aeb50c0932b2c582c7e6011c7fad7c850e987a3c0d8a24794eb6af889ddd25a3b039dc92c3041fde1a78e457783a04d441b              668 meta/binary-amd64/Packages.xz
- 2fbed5ea7f6d09f6ea18fe622c333fef530bfcdcf947241a06ddbd44cfa4b70ed33151af47dc09fbfd9663e9236c31a4e106b353ff2cb9f4bf59cffcc8d15ed1              563 ose/binary-amd64/Packages.gz
+ 71663a2021898a0f946071d6d60c670fcf6326f005fade4d9a682f96e9b0a88a1392c12bbcc92e0ba4b43a868b1e8afac158c0356920d0cacb13d2d4c13c068c              563 ose/binary-amd64/Packages.gz
  02d44bf8a675047ed156db723341a839adb2004d387c893a0bea618a0dbea65d8ec3b948de72218a69256d156f6b5b40daf6263964e779a1ccc767b1c941752f              636 ose/binary-amd64/Packages.xz
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQT2yCSpW1EPSe1LDWQLT5BXx9vcQQUCZwtjGwAKCRALT5BXx9vc
-QRzlAQCU0fWiVCjBNxMrTCoI3FSitouKqLw2GylOAHiFptxlmAD+PoE8XPo1IEO0
-LTxGy0OhaoTALmlmzzVS2Aq4yDNqYgg=
-=qyTi
+iHUEARYKAB0WIQT2yCSpW1EPSe1LDWQLT5BXx9vcQQUCZwtp2wAKCRALT5BXx9vc
+QTUcAQCaJ9VcY73/kLbRsPmKeYhPAzqxTpl5jIRbK+15J+asbAD/XKuZgo7+eF2f
+i2miOnTsFymIq30Rt/SyJpzw1ElAyQ0=
+=nYcG
 -----END PGP SIGNATURE-----
