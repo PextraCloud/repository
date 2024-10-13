@@ -20,7 +20,10 @@ echo "Cleaning up..."
 find ./debian -type f -name "Release" -exec rm {} \;
 find ./debian -type f -name "Release.gpg" -exec rm {} \;
 find ./debian -type f -name "InRelease" -exec rm {} \;
+find ./debian -type f -name "Packages" -exec rm {} \;
 find ./debian -type f -name "Packages.gz" -exec rm {} \;
 find ./debian -type f -name "Packages.xz" -exec rm {} \;
+find ./debian -type f -name "Contents*" -exec rm {} \;
+find ./debian -type f -name "Contents*.gz" -exec rm {} \;
 
 echo "Cleaned up."
