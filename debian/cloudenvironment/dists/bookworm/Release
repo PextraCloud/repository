@@ -1,89 +1,89 @@
 Architectures: amd64
 Codename: bookworm
 Components: common meta ose
-Date: Sun, 13 Oct 2024 20:56:19 +0000
+Date: Sun, 13 Oct 2024 21:05:04 +0000
 Description: Pextra Inc. Debian repository
 Label: Pextra Inc.
 Origin: Pextra Inc.
 Suite: stable
 Version: 1.0
 MD5Sum:
- a1e6a7b1165e9dc0316bddc397a50225              215 Release
+ e7c3f22ab006f32d8ca834cd1428928e              215 Release
  fd0c9a3d4508d0636d1cca0f400e51df              472 common/Contents-amd64
- 73d8acc2a3e0aaf16355015ffb138bb1              160 common/Contents-amd64.gz
- 5d805e624187575cd5fdcea9c9791d10             1145 common/binary-amd64/Packages
- 87c54187ed641e9967307486354baedc              550 common/binary-amd64/Packages.gz
- 5993bf70f01bb34122571af665a84058              628 common/binary-amd64/Packages.xz
- 6788ba2a9b5b682397dab4a39ff06bb9              261 common/binary-amd64/Release
+ a6d535e507be45b88851100b74681cc9              160 common/Contents-amd64.gz
+ e897ffe2d3126c61195603cd8faab9dc             1145 common/binary-amd64/Packages
+ 9040944c9b858cbeca66309a98bd6538              552 common/binary-amd64/Packages.gz
+ ab6e5df1016b067c08653adb7f25df60              624 common/binary-amd64/Packages.xz
+ bebba603c7b2a1aceff6f9007bfe881b              261 common/binary-amd64/Release
  b02da839538255c532d7aac518fb9d38              203 meta/Contents-amd64
- ed0fc11251db0122662dccacc39c70e8              108 meta/Contents-amd64.gz
- 3de646f7860e5cd76fd6cf4e1ddd99a4             1306 meta/binary-amd64/Packages
- 3737e0f58c4b2a5e7280dd85eae793e3              599 meta/binary-amd64/Packages.gz
- c7f7f66dde5b110ccae237637d973c43              672 meta/binary-amd64/Packages.xz
- 0698741f0eb73bba6eac38f155cb6179              259 meta/binary-amd64/Release
- 9e69cb525a6358dd9affcf7a51df523b             1928 ose/Contents-amd64
- 06a39ed7a5108ee771928f76296da670              492 ose/Contents-amd64.gz
- 8a1b373f21fa0b8e76aab17b8b23be18             1237 ose/binary-amd64/Packages
- a2b3fbbf1820d506509288955b444d73              565 ose/binary-amd64/Packages.gz
- d1a341946700791cc52ccd200a77a0ae              640 ose/binary-amd64/Packages.xz
- 5736d91f2b5c826952a5270558864952              258 ose/binary-amd64/Release
+ 321d9e63fe40b0c5df4d40236c82592e              108 meta/Contents-amd64.gz
+ 4ec1733e7ac31821ad53eff7e712ac3c             1306 meta/binary-amd64/Packages
+ 04074f4cf931cbac0f4cce9ac4515792              599 meta/binary-amd64/Packages.gz
+ 6468a4b6adc58028c9fd9243bb9b2890              676 meta/binary-amd64/Packages.xz
+ c7521501a313eaa6d874804dd82ab12a              259 meta/binary-amd64/Release
+ 0fa9de816d47011eed2755b35c43ef3c             1860 ose/Contents-amd64
+ f60d59d08386459fa9743753f9ba1447              473 ose/Contents-amd64.gz
+ 27b1868475ebb1feb1e95be08ec4c0b5             1237 ose/binary-amd64/Packages
+ 1cc8d165629f6549a07c6c20dcece970              567 ose/binary-amd64/Packages.gz
+ 14e229d6defeaaf8fda92488f5f883d8              640 ose/binary-amd64/Packages.xz
+ 29276adc9a16c6d3e14a5688a4a2d4d4              258 ose/binary-amd64/Release
 SHA1:
- 29e3caa63cc9dbd1332b2c6c8cf7e5d616a339fa              215 Release
+ 8cd957cf7a3cbba34cd6abe8a82cb4709663df97              215 Release
  2e693c389eaf3482d202fcf5dda48392ac5dd105              472 common/Contents-amd64
- 9678b43188243a93725cdf1004df1a765731b503              160 common/Contents-amd64.gz
- e3e3a73824ed1d41a4262859d56fcac3d8993c06             1145 common/binary-amd64/Packages
- 8664fe5107b7393a59cbe2b64c6ef0ed13e3c72a              550 common/binary-amd64/Packages.gz
- e727cf54d883b4fb9b5667ebf93f007d5b8ba298              628 common/binary-amd64/Packages.xz
- 58ff1895d7a4a877a75a49cac070f51cf169b96c              261 common/binary-amd64/Release
+ a9d0679beaa51f24bfbae997e1c9956bb64eb1fc              160 common/Contents-amd64.gz
+ 22bfefe28e5e9b66335f7a0aba7941e0c011dfc7             1145 common/binary-amd64/Packages
+ af3c523e5d2e366842be139c0338c273a29f3499              552 common/binary-amd64/Packages.gz
+ 7e4db0d5f5dd007cb422705a6ccaea41b1c3f46b              624 common/binary-amd64/Packages.xz
+ 456fa30c02c4ebd029bf3787a4946d74a99901c7              261 common/binary-amd64/Release
  e2f2dc268bfe17fb14a7d3cf48d763b7616670de              203 meta/Contents-amd64
- 0ea997f866e1aae7a88322becda99e47c541ccc7              108 meta/Contents-amd64.gz
- 73d017fb15f90ad9a23cc97aa948f7075e7bffa9             1306 meta/binary-amd64/Packages
- f2cd81e65b4be2c2a6b52c782527b4257564e7f6              599 meta/binary-amd64/Packages.gz
- 657273e0567dfeea16af05b3e531a414ecccd160              672 meta/binary-amd64/Packages.xz
- a2ea3da7e7945f2e8226bfea6ffd3e39fb8a0633              259 meta/binary-amd64/Release
- 012e6db9b2d49e21d75b7f398f64ca66a01ad43c             1928 ose/Contents-amd64
- 187eb196e21d3ea015ea50225fd183c0a8c0763f              492 ose/Contents-amd64.gz
- 1becea1096fe0ca627d5c971d67f07bf5f53b394             1237 ose/binary-amd64/Packages
- 10f9a78a04e495d66e1eb5fe9536418ce3e5646d              565 ose/binary-amd64/Packages.gz
- 79ee0e6d00f5eb19ff41b2545949cb6d8081b1d0              640 ose/binary-amd64/Packages.xz
- f7906e57c6f30ac802f6f5ffd5c836de17dd5c70              258 ose/binary-amd64/Release
+ 0be8dedeaf7e7285ba0845027ebbe311f0c63ae3              108 meta/Contents-amd64.gz
+ 7f02624b32fa4411e627c196b45a1db2b3c2c853             1306 meta/binary-amd64/Packages
+ 6be562cce70034729da688384a97f0d70409c2ad              599 meta/binary-amd64/Packages.gz
+ 62fbba6ad1e7043a559d38e6291ba852bb70a257              676 meta/binary-amd64/Packages.xz
+ 83afd626e3c2d5e089f2b026232fe841a6f9af13              259 meta/binary-amd64/Release
+ 8ad57f92a0801aa6c365e935b8f286121b4d5a87             1860 ose/Contents-amd64
+ 70b1fa73d94c952a7d16a242525ad186a4668f4f              473 ose/Contents-amd64.gz
+ a733667aaa19054855577f416e26c8102bcec2f0             1237 ose/binary-amd64/Packages
+ a0b05a834541d6b2799d739a25b21fc76a21b8f6              567 ose/binary-amd64/Packages.gz
+ d66e3469c284cd72bc9bb344f587ece3f9bec126              640 ose/binary-amd64/Packages.xz
+ 3d9cc947010107d32d74e479c1c7a56562b4836b              258 ose/binary-amd64/Release
 SHA256:
- 420032017a994a7ba49c81050b7c106044df96eff8c9d2fbf9e91b34de416f2c              215 Release
+ 044f7e4932c20d3705d1f80d06ac6877484d3e4ec9d090a6a76e6ce1610a8329              215 Release
  8092111f3a054c957db3a4a8ba0a8b1850ffe7a544f78a0e3a2f597550bc68f0              472 common/Contents-amd64
- b6b613617a7863d627e85ee4f8ea19fd8c66c9b054ed802365c0e1797bc18ccb              160 common/Contents-amd64.gz
- 42dee7f74abcb221b727ef01f6d8039cc968b78e8b246d0b469c859540f485f8             1145 common/binary-amd64/Packages
- 66bc1b8a48315636b4e7e000f60b501abc6283807509383237c7811875e9f498              550 common/binary-amd64/Packages.gz
- d9d302d846e208726f69d013ac7a06652ce4ba6d35f8feab607ff5bed100c777              628 common/binary-amd64/Packages.xz
- 583cd0a8f855a651d5c5737c5a12121108b8a97b7908c95aaed628e61c89b3f1              261 common/binary-amd64/Release
+ 5dd75be72d8e8c04e84626ee9b5fa361adbdad0b99bc7c94dc4e69338bff8350              160 common/Contents-amd64.gz
+ 35d8daf88975deaf73ca8855f8db5861038868ef437930687291afd7a8d9cf5b             1145 common/binary-amd64/Packages
+ 5323795c004ebb35bf302a11d3d1f4ea7898fa6bcdc46bf14032a30dbb96f69a              552 common/binary-amd64/Packages.gz
+ 2c34e3659b6f8d21f29361a45936f84157a87a839dcfa6ba91f0c13c68daca5a              624 common/binary-amd64/Packages.xz
+ f5a3dad694aba69d4cba38edeeb4e3ef59397708de98898be2a5e719feece13a              261 common/binary-amd64/Release
  0c3ec2bdcf3899e5bef1091b46a4bf48c977c30fef48736b53403a7ab42dad14              203 meta/Contents-amd64
- d29a5a75a7be6746ac57a4e36c9ae108464a6a97a52bd906df4eee1139b5b340              108 meta/Contents-amd64.gz
- 06009ba8b113ab7662ef790865ccffb34e39cdd44b03cf713611ffdfe5058357             1306 meta/binary-amd64/Packages
- c69f39c2ef928af4aecc4a65887cac060936ddcf63ba3e6dd4133a241690042a              599 meta/binary-amd64/Packages.gz
- 3f72ef693562112c601005fff7784ffa6747f85143f7db7dc43501fc59e13f9f              672 meta/binary-amd64/Packages.xz
- 943f32610a68a22a4f4979f0d0b052661cfd3a064bbbb25e40a924d6d3676495              259 meta/binary-amd64/Release
- 1782aae3f7ee7bbdfc2b0048646bb7463554b16226494aaef518f8aca5ebbd78             1928 ose/Contents-amd64
- 2f54cf44d880abfce00870d5cf058fcdef5acb372188dd75aedb6b07f88d13c7              492 ose/Contents-amd64.gz
- f0f359f9d3b923d278acc734826287a4d678075cc69bf452dc84bf0f47a8d755             1237 ose/binary-amd64/Packages
- dd369588a06358e842c458b80c3f350de31dd1dc8c3256ad6380f395569b79a7              565 ose/binary-amd64/Packages.gz
- 630b5d8046bf73d6c5c47831af8144cb371de7bbe5da7577bed4d7042dc84b6d              640 ose/binary-amd64/Packages.xz
- 23bb55a1d4f28b0b6a39a0ae0103cd49c4f56536bad7e528c06547b703a1a51a              258 ose/binary-amd64/Release
+ 78adffd3add897a187c5f03bb9975ec923e0da739b3b87b11abe5b438019be87              108 meta/Contents-amd64.gz
+ 325ba9e13ed846ce53e5d2f42efaee425b34fd58b24cf51b75ee64ab9ad2f3ba             1306 meta/binary-amd64/Packages
+ 11580afa333a5c58720edb19f4b5062b97b5d196d1d4c1fa432a97b087a95805              599 meta/binary-amd64/Packages.gz
+ 8d1f27afe31e5461be2d871310c4c8dced1eaa7fb3b2038141c771ee7c7bf771              676 meta/binary-amd64/Packages.xz
+ 5166f7d4c9e04e2ed780b108a737d0d17aefd5e9d716e26a6bb22261db3146f2              259 meta/binary-amd64/Release
+ b01a6a2f4f7215e56a4ec1306465bf4a75b6518dd010e6d05d4c3ba2acd7d3dd             1860 ose/Contents-amd64
+ 69d36b5319eedf2621e73bb041809b3629ccf2f42959dfecf3f99c52579bbe09              473 ose/Contents-amd64.gz
+ 1b706ca1ca00da1419677e7c4169396dc224d6fd7f71ed30260bb5558ea8a066             1237 ose/binary-amd64/Packages
+ 92d78e39c90d8f1dc84f858dfef0d60c1aacbc2115274a607a5efeda9bc92658              567 ose/binary-amd64/Packages.gz
+ 3bc6cbab680f8bbd4fbf0f11278e521d049bba18c9018bb7a626604fd50b1be1              640 ose/binary-amd64/Packages.xz
+ 26b44ab8f6f33812119a53b3bdb9d698db8c844275a8d00fa9412340256d792b              258 ose/binary-amd64/Release
 SHA512:
- b15ef2be99365ba1b7b650e1229656e0d79f02ae7aa0ca78ca7c1047a023713efce73463ba15d698a352a8f42c1fbb4b92769dd9a79f1c2f8303d53ed87d0c19              215 Release
+ 691022b8cbc0d766bb04b51386108751ce7c46ab475cfb096eedb535b78d92c676ff803e6efed72610c30dafe2430c9b66bf5a0c5155e55d1458ceb51eea639b              215 Release
  aa8dde8f3aa5f3fd8ac2f5dad445fbd1f5d02fdf363e0db26e5bd950edbb46b57db506ee0db443dfba4f37d380220b1aefdc23ca3d5c10cf5499cbdcc099598c              472 common/Contents-amd64
- 5b0d72667698e95b1d979d6339bb12bebb4b1f394c684b95d96b18d8e4283f902177347aa44911d98c8ef48f39f5cdc52383a169ab9b5b0125d834ba5ada642f              160 common/Contents-amd64.gz
- 38ca03bb4397b125b237241b72913a03daa2c7d724201c31131ef6629285085b9b4c470136dece88b1ba8e44bdc486a4ea4d02469b7a24eb6f4d47098ae814bc             1145 common/binary-amd64/Packages
- 9401ffa4fe4db0db59c771ca2e5a79cc25bd546650f7448e7efde793bec6fb0163fc29fc118c7e595e40ab2e26fe4c22eaf245c745e66afdf754957d35ef16c0              550 common/binary-amd64/Packages.gz
- 29e3bca9749b3feaa97b074e87ba46da856fdc97b971f677fe5cbef2dc23e6859c12e175d474eff4fdb88d55aa3fc83d682c7bd686073c34a920facb0003141c              628 common/binary-amd64/Packages.xz
- 31cba224a244f344890c5d29c88f2ed8b4be813b747ce5426d72c420e8c6d61f8a97c1b761ad38925deccf107a91f2f1640f8e80a3a0a6dd6ae09f7aec80c222              261 common/binary-amd64/Release
+ dc2ce377b9149e1ada321d0041f80ffa0f326640402d6b2bc75dc578156efe1881898bb708b37df166ccc2da4bbde7aff50611f8333f9a6f1446877bfaf3a2c9              160 common/Contents-amd64.gz
+ 6c1c8062cd3ad76246ec63e8d43d3871ff94ebe8c363bd0abb50a88b8ce81d0ad16652752ce613519d865afa85130c6c7280dd8adfe35b9050cf537e90c291be             1145 common/binary-amd64/Packages
+ 503888057e8360bb41249144e53eaef4fdd0c3e397ec36a6e436331717150394832d7a3635cdb1cb005da540e1fa0dc64ece1117d7d4248ee89eeecdb142ef95              552 common/binary-amd64/Packages.gz
+ 7ad525747e048af9582a99d650197f2fda86b78e9a2a573ad159797191a54405f6c580a5af824b2ce00ee1ec0706ea8bf0d935cb0cbae08609e2cbfe6f5c647c              624 common/binary-amd64/Packages.xz
+ 8092a7cd7efa55d525189d5cf7b7ba628b86ffb6bccde52c67b8bf873d762293dc15e4ac59741e38c446918bde9c958e3d50db42c11a679acf0ab6f706838d52              261 common/binary-amd64/Release
  b1009fc0ec8f3b45e972a171707bb0faab754d687e9e9a25245858abb72e0cc319ed50efa6383549310845a777eb51708c9716d39136d56193ca87594e9d1c7e              203 meta/Contents-amd64
- d7caf17171fae0c556b2876cb12ed0d56cc01195e0881ed94b811bb5239836f306856bbf4a7b7be75d8057373af8daebec6ac11b56c80f40d44344e93b1110d7              108 meta/Contents-amd64.gz
- 63356ecbc750f47e05db7124b5f77b8c0458a37af1bdc0daa519a30449d2f80605ea1738c14bd08b50d38bb11dbe27f29f2228ca36ed9bb26c2973bdaee21203             1306 meta/binary-amd64/Packages
- b8c7f9ac818fabcb4a4de5504e86b3146362324175421a971ffb6658ade4879e51e166010973d1762a62ad537836d9b52cc3249cb8be8bf7fe8e69f5756d71a1              599 meta/binary-amd64/Packages.gz
- 0ecd969066760d7e82f679df6a8e95ebdd128945536a0d0c65120d542be179a2c3c82626f05fd1319f31784fb1132817ca0d331334120e65daf85a1ee7583dc1              672 meta/binary-amd64/Packages.xz
- 36583e0d4d6834721e54e1ea5881a2c79e8ea820ef52a5eddc2ef79caf1488f50be3a1e1e581f316415697b71f5a3a355a03e3c805a2f0d85c721a29c86794ee              259 meta/binary-amd64/Release
- e9ffbc49dc6b1074c29a3525701fb5a64b6dc3d39408505685d2e644e18690d53583b3b693f4a5a65b22da31e3ae3a584f8235a44f3bfe85503a9c48ad12d90f             1928 ose/Contents-amd64
- e4709fbc183d2aa612d65f894081663b69d1f03deeb5496a1dcac921b88a2557c5c74dd35e691559fa6ec51de9d22276944fd7bd695d0a6f75ea5a83143c6d62              492 ose/Contents-amd64.gz
- 96a30fa33ce05861a79fda7c47db9ece4ea07875ede4d3e87ea16df5bcdfe77207fa625a84742197e75854cfcf921e1dc59b29c9ccac3463c34e2fd412da5546             1237 ose/binary-amd64/Packages
- 0f1c39f3a14cce76999f3c57d3c485c4cf9e87b2f017d9ccf4f357d0977c66d6a6e7ba5ff62adf9cad3444e78275f5d1e7461c5f87a943b9271b871e5b2617fb              565 ose/binary-amd64/Packages.gz
- ffd5244f837873b8af5f53c205673a8ff115410baf4b4b088af53da9d0394259677487201209f40a07ed934c56fbffdf53aaf53041fb45f28d01f82a1dd29cb8              640 ose/binary-amd64/Packages.xz
- 6d946697d09c4af0586d10f500352a024f4adbb12da0797579df8ace5f968620ce649d568456476c8a0adc60b90e154f976810e3c62b70c14d3d2b5128c5d68f              258 ose/binary-amd64/Release
+ b368422987a7f0c60c4e632bd7805c5e5acbb9b09e3b67882447890a979bca24ffe88956d84f02931f4405eac7b98cb35d4f513b5018e8868be5cf82bb8be013              108 meta/Contents-amd64.gz
+ 94180adce01dd4c11b991ae7652228cd84daebde18687c604a7e8b9cadbe0000569f189986cb87182c6bbbb9308265c516efe444d566330ed1ba49e3bd88f8ce             1306 meta/binary-amd64/Packages
+ 85d75ba9194ba8403132b3be4fa9deddf9dca7ea807cfbc0d5bae9ae4d20bc3811d6a2fdc4815a4e14351cb99d61073509a864702121a5b8d05c505573d962f6              599 meta/binary-amd64/Packages.gz
+ ca2bcba90589cb7588101efad08f512afc248263c332a5a26fa3f7826e287dda6b4a0ce390385827c5e58a6f89d0aa3ff409cfb0c4c95971663c27d3dca18c61              676 meta/binary-amd64/Packages.xz
+ fbd8d91e012ba0a53c7bc252c34a31e05eefb94d31fa7fc2ba7dda47e7d9abd2e68f33da2fc3d632aa57c69c10055b6a2c2f52bcdd76db5311b96e37e1b13b47              259 meta/binary-amd64/Release
+ 8005edfe0b66f660f198a2d158581afebda9e20573f318852b6b7a302c894e2123b63c7d4bf91951d589b9f28334e521586244ae2645588340c5407555dcbe50             1860 ose/Contents-amd64
+ fbfe962c29fda8138c3e03428c9fc41059df5247f91900dbdc52b4689cd872c3f5f19ae1a26f80685db850cbdf10279cf20f6fded5be6943a8e8f088b63700a7              473 ose/Contents-amd64.gz
+ 56c34428bc139afd85430ee39d9205d4e6edab7ad8bb2ab15b48dc9d8eea32818d89c29534668b18aae085432e7633e98950d09fcb0b98021e7344b46c0b60a0             1237 ose/binary-amd64/Packages
+ ba236b97a0c0dd4cc0c9970d32bfa9bdeb0146efbbcb5a27125b355d6028962025c0f9133808eba4689f049126a3923aad59dfb0f9b687984ee572b1c2921c3f              567 ose/binary-amd64/Packages.gz
+ 39e61decd49388c8abbfa820fc8754966939ed38f7c1e5d4b7e17434e5fc233431a627fced9f17525930a1cf61a0c1a4053458b678d924ab0d6ba3d7f37f4085              640 ose/binary-amd64/Packages.xz
+ 2f6f086f03817f7092e76d8a93906f3ee86f26d473764ee83b95d5c26af110cce9191223552915b39b02243c7fe1e974e14a88916350eb423f7cbfcb7b4db245              258 ose/binary-amd64/Release

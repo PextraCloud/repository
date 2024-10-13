@@ -2,13 +2,13 @@ Package: pcedaemon-ose
 Version: 0.0.0
 Architecture: amd64
 Maintainer: Pextra Inc. <debian@pextra.cloud>
-Installed-Size: 2121
+Installed-Size: 2042
 Conflicts: pce-enterprise, pcedaemon-enterprise
 Filename: pool/ose/pcedaemon-ose/pcedaemon-ose_0.0.0_amd64.deb
-Size: 466064
-MD5sum: 8d33f88a6ad4a79f834bcf6db42a87a1
-SHA1: 0374982d0d137b31fb8dda4a4d3c3259ce885571
-SHA256: e7e7a06ce626b20f7bcad8342c2ca26b3f7be44919560cb5061b83b4648ea17a
+Size: 446388
+MD5sum: 0e7e29ee4e489cc9480bcf67b8be9a99
+SHA1: e14c5f9e67f221c523b824facb7928a5aa9289ff
+SHA256: b7cb0f4fa269cf83ab39b7a322283fa2e0aa18586b481351f9ad596e588385c2
 Section: net
 Priority: optional
 Homepage: https://pextra.cloud/products/cloudenvironment
@@ -22,10 +22,10 @@ Maintainer: Pextra Inc. <debian@pextra.cloud>
 Installed-Size: 2587
 Conflicts: pce-enterprise, pceui-enterprise
 Filename: pool/ose/pceui-ose/pceui-ose_0.0.0_amd64.deb
-Size: 785604
-MD5sum: 69ea097b98d3f8f77f50de506a950199
-SHA1: 9f04dc77000e799c6f18106961a1f4a982b30585
-SHA256: 24df484b1ea8e0d73b8dc80a2dc401b2e8b302fdd702c3af0a04f675458fde35
+Size: 785864
+MD5sum: e5bdfb4fc449b2dbd7119e08f8e2370f
+SHA1: 48c512b59d9aaebd732bcdf3458ca6f3b44d96e0
+SHA256: 4ddfd14c4249c395ad46bf92fdc2d11a518e48a7bc05007e19b55a7ff000acbe
 Section: net
 Priority: optional
 Homepage: https://pextra.cloud/products/cloudenvironment
