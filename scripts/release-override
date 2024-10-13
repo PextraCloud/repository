@@ -1,0 +1,6 @@
+APT::FTPArchive::Release::Origin "Pextra Inc.";
+APT::FTPArchive::Release::Label "Pextra Inc.";
+APT::FTPArchive::Release::Suite "stable";
+APT::FTPArchive::Release::Codename "bookworm";
+APT::FTPArchive::Release::Version "1.0";
+APT::FTPArchive::Release::Components "common meta ose";

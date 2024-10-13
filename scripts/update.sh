@@ -31,7 +31,8 @@ readonly BASEDIR=$(pwd)
 readonly DEB_DIRECTORIES=$(find ./debian -type f -name "*.deb" -exec dirname {} \; | sort -u)
 
 make_release() {
-	apt-ftparchive release . > Release
+	override_file=$(find $BASEDIR -type f -name "release-override" | head -n 1)
+	apt-ftparchive -c $override_file release . > Release
 	gpg --yes --armor --local-user $CE_GPG_KEY_FINGERPRINT -o Release.gpg --sign Release > /dev/null
 	gpg --yes --local-user $CE_GPG_KEY_FINGERPRINT -o InRelease --clearsign Release	> /dev/null
 }
