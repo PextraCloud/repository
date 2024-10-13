@@ -32,17 +32,46 @@ readonly DEB_DIRECTORIES=$(find ./debian -type f -name "*.deb" -exec dirname {} 
 
 make_release() {
 	apt-ftparchive release . > Release
-	gpg --yes --armor --local-user $CE_GPG_KEY_FINGERPRINT -o Release.gpg --sign Release
-	gpg --yes --local-user $CE_GPG_KEY_FINGERPRINT -o InRelease --clearsign Release	
+	gpg --yes --armor --local-user $CE_GPG_KEY_FINGERPRINT -o Release.gpg --sign Release > /dev/null
+	gpg --yes --local-user $CE_GPG_KEY_FINGERPRINT -o InRelease --clearsign Release	> /dev/null
 }
 
-for directory in $DEB_DIRECTORIES; do
-	echo "Updating $directory"
-
+echo "Updating Debian repository..."
+for directory in $(find ./debian -maxdepth 1 -type d | sed '1d'); do
 	cd $directory
-	dpkg-scanpackages . /dev/null | gzip -9c > Packages.gz
-	cd ../.. && make_release
+
+	for dist in dists/*; do
+		for component in $dist/*; do
+			if [ ! -d $component ]; then
+				continue
+			fi
+
+			pushd $component
+			for deb_file in $(find . -type f -name "*.deb"); do
+				package_name=$(basename $deb_file)
+				package_name=$(echo $package_name | cut -d'_' -f1)
+
+				pool_dir=../../../pool/$(basename $component)
+				mkdir -p $pool_dir/$package_name && cp $deb_file $pool_dir/$package_name
+
+				parent_dir=$(dirname $deb_file)
+				dpkg-scanpackages $pool_dir | sed "s|../../../pool|pool|g" > $parent_dir/Packages
+				xz -9c $parent_dir/Packages > $parent_dir/Packages.xz
+				gzip -9c $parent_dir/Packages > $parent_dir/Packages.gz
+
+				rm $parent_dir/Packages
+			done
+
+			for deb_file in $(find . -type f -name "*.deb"); do
+				rm $deb_file
+			done
+			popd
+		done
+
+		pushd $dist && make_release && popd
+	done
+
 	cd $BASEDIR
 done
 
-echo "Debian repository updated"
+echo "Debian repository updated."

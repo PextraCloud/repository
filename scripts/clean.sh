@@ -21,5 +21,6 @@ find ./debian -type f -name "Release" -exec rm {} \;
 find ./debian -type f -name "Release.gpg" -exec rm {} \;
 find ./debian -type f -name "InRelease" -exec rm {} \;
 find ./debian -type f -name "Packages.gz" -exec rm {} \;
+find ./debian -type f -name "Packages.xz" -exec rm {} \;
 
 echo "Cleaned up."
