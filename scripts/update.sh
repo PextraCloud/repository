@@ -60,6 +60,18 @@ for directory in $(find ./debian -maxdepth 1 -type d | sed '1d'); do
 				xz -9c $parent_dir/Packages > $parent_dir/Packages.xz
 				gzip -9c $parent_dir/Packages > $parent_dir/Packages.gz
 
+				# TODO: redo this
+				override_file=$(find $BASEDIR -type f -name "release-override" | head -n 1)
+				apt-ftparchive -c $override_file release /dev/null | sed '/:$/d' > $parent_dir/Release
+				arch=$(echo $parent_dir | cut -d'-' -f2)
+cat <<EOF >> $parent_dir/Release
+Archive: stable
+Architecture: $arch
+Component: $(basename $component)
+Acquire-By-Hash: no
+EOF
+
+				sed -i '/^Components:/d' $parent_dir/Release
 				rm $parent_dir/Packages
 			done
 
