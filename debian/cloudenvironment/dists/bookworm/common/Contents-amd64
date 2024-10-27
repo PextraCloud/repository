@@ -1,9 +1,12 @@
+usr/bin/pce-consoleproxy				    pce-consoleproxy
 usr/bin/pce-internal					    pce-internal
 usr/bin/pcecli						    pcecli
 usr/lib/pce/pce-internal/index.js			    pce-internal
 usr/lib/pce/pce-internal/pce-internal			    pce-internal
 usr/lib/pce/pcecli/index.js				    pcecli
 usr/lib/pce/pcecli/pcecli				    pcecli
+usr/share/doc/pce-consoleproxy/changelog.gz		    pce-consoleproxy
+usr/share/doc/pce-consoleproxy/copyright		    pce-consoleproxy
 usr/share/doc/pce-internal/changelog.gz			    pce-internal
 usr/share/doc/pce-internal/copyright			    pce-internal
 usr/share/doc/pcecli/changelog.gz			    pcecli

@@ -1,13 +1,29 @@
+Package: pce-consoleproxy
+Version: 0.0.0
+Architecture: amd64
+Maintainer: Pextra Inc. <debian@pextra.cloud>
+Installed-Size: 5467
+Filename: pool/common/pce-consoleproxy/pce-consoleproxy_0.0.0_amd64.deb
+Size: 1900020
+MD5sum: d43211eacb9bbb0fe2e25b5e9afefced
+SHA1: 8604a0f41f1d0751fc5c555ad2bb567d8bf53aac
+SHA256: 88fd8256dd674e1bbf378fb6806e7a576100a4dddcb16a8f4db7f4ffd8984b22
+Section: admin
+Priority: optional
+Homepage: https://pextra.cloud/products/cloudenvironment
+Description: Internal console proxy utility for Pextra CloudEnvironment.
+ * This package is part of Pextra CloudEnvironment.
+
 Package: pce-internal
 Version: 0.0.0
 Architecture: amd64
 Maintainer: Pextra Inc. <debian@pextra.cloud>
-Installed-Size: 302
+Installed-Size: 275
 Filename: pool/common/pce-internal/pce-internal_0.0.0_amd64.deb
-Size: 65600
-MD5sum: 55775a36db9a60a4ae2bcfb32dd32b15
-SHA1: 1df8556afeed68d448c3bb27443e12da3778c41e
-SHA256: ecdcedcc0f2f347d563657b5dff7c77ffd3bc0c77e1da8218b6a936817275dda
+Size: 59628
+MD5sum: 575a4d7ecf4a2d95296e33d80701b61c
+SHA1: 47b0969761aa8dd6855480f4ee510ab38f38d8ff
+SHA256: d41bf60ca6d71f91b3f05c4ac5ab9dc8d9680d22b9f2ba4b00dcd20b9ce11ddc
 Section: net
 Priority: optional
 Homepage: https://pextra.cloud/products/cloudenvironment
@@ -18,12 +34,12 @@ Package: pcecli
 Version: 0.0.0
 Architecture: amd64
 Maintainer: Pextra Inc. <debian@pextra.cloud>
-Installed-Size: 1224
+Installed-Size: 1223
 Filename: pool/common/pcecli/pcecli_0.0.0_amd64.deb
-Size: 266140
-MD5sum: ddbcb9020120e343670a9dfc6a177206
-SHA1: 3cf3a98c6f503049854817510a33ee6a8f31cfdd
-SHA256: cc9a11b650319a73dc0940da5769bd9ef9e4bd19bb2080f190c90a58f293ed94
+Size: 265708
+MD5sum: d47f00381c363725d1c9248320621a58
+SHA1: 5fe1e650f11aeabc0759d978a91206fcf5d3028f
+SHA256: ef078ad4dc9c42a49f60173bc57d9b36b028d22b765d642006148221a768ab93
 Section: admin
 Priority: optional
 Homepage: https://pextra.cloud/products/cloudenvironment
