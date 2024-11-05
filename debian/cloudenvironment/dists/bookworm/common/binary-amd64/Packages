@@ -1,13 +1,13 @@
 Package: pce-consoleproxy
-Version: 0.0.0
+Version: 1.4.7
 Architecture: amd64
 Maintainer: Pextra Inc. <debian@pextra.cloud>
 Installed-Size: 5467
-Filename: pool/common/pce-consoleproxy/pce-consoleproxy_0.0.0_amd64.deb
-Size: 1900084
-MD5sum: 92a844ed22359086c65f0cca5291e8cf
-SHA1: 1262dfd472cf623298e4e36d99ed62f96aba4113
-SHA256: ced058234de4da5b91ba7a27851de1cdd5a6ba4610a7ba227e1573c309b1dc36
+Filename: pool/common/pce-consoleproxy/pce-consoleproxy_1.4.7_amd64.deb
+Size: 1900312
+MD5sum: f59c6e662f36f44a922fe3ec89b6c2a3
+SHA1: 87b03666af0a84d90026662eb6293aa0e9164fd2
+SHA256: e5ce494e61a42cdb72d0c9227d0b0dba50af2c81fa0a27fb0cbc7bf3c185c5e1
 Section: admin
 Priority: optional
 Homepage: https://pextra.cloud/products/cloudenvironment
@@ -15,15 +15,15 @@ Description: Internal console proxy utility for Pextra CloudEnvironment.
  * This package is part of Pextra CloudEnvironment.
 
 Package: pce-internal
-Version: 0.0.0
+Version: 1.4.7
 Architecture: amd64
 Maintainer: Pextra Inc. <debian@pextra.cloud>
-Installed-Size: 424
-Filename: pool/common/pce-internal/pce-internal_0.0.0_amd64.deb
-Size: 100740
-MD5sum: a7d27d0782b65a8faf210d4faa5c0bbf
-SHA1: 528c050b7ca85683e21945177d398f826e42bf56
-SHA256: da18fb3bfa2db1644a51cb5e68a01e1bc55f8ed6b8450582f41ba0048bdceed1
+Installed-Size: 425
+Filename: pool/common/pce-internal/pce-internal_1.4.7_amd64.deb
+Size: 101168
+MD5sum: ed333aba0efd3f8c6e152be1a4c0f83a
+SHA1: 955913de0c1e82507cb23b86d480ac7c6ee8cb80
+SHA256: e5771fc4b22752bc0ee942e1ad2b2322e634799cba7e97fa112d1a29c78192b4
 Section: net
 Priority: optional
 Homepage: https://pextra.cloud/products/cloudenvironment
@@ -31,15 +31,15 @@ Description: Package for managing certain internal components of Pextra CloudEnv
  * This package is part of Pextra CloudEnvironment.
 
 Package: pcecli
-Version: 0.0.0
+Version: 1.4.7
 Architecture: amd64
 Maintainer: Pextra Inc. <debian@pextra.cloud>
 Installed-Size: 1223
-Filename: pool/common/pcecli/pcecli_0.0.0_amd64.deb
-Size: 265672
-MD5sum: 6dd27e38951b87aeca03c7d15d290f2a
-SHA1: 15de5cb82a309a3df617e1c66e97eb56d4cfa780
-SHA256: 4de1bb2f680dc5dfdc4e02dafbc9a367e9b2288a129a896113dcc9eff609c860
+Filename: pool/common/pcecli/pcecli_1.4.7_amd64.deb
+Size: 265704
+MD5sum: 03056aa7b9012cb0f91782417b3f8f88
+SHA1: 22423dc8d2db8fc4de573925fe8c43c7c32a0230
+SHA256: 42f6b69aaa93de4694362dfcee76861af9c15708a45c49d71d9505949d990282
 Section: admin
 Priority: optional
 Homepage: https://pextra.cloud/products/cloudenvironment
