@@ -1,3 +1,5 @@
+etc/systemd/system/pce-collectd-ws.service		    pce-collectd-ws
+usr/bin/pce-collectd-ws					    pce-collectd-ws
 usr/bin/pce-consoleproxy				    pce-consoleproxy
 usr/bin/pce-internal					    pce-internal
 usr/bin/pcecli						    pcecli
@@ -5,6 +7,8 @@ usr/lib/pce/pce-internal/index.js			    pce-internal
 usr/lib/pce/pce-internal/pce-internal			    pce-internal
 usr/lib/pce/pcecli/index.js				    pcecli
 usr/lib/pce/pcecli/pcecli				    pcecli
+usr/share/doc/pce-collectd-ws/changelog.gz		    pce-collectd-ws
+usr/share/doc/pce-collectd-ws/copyright			    pce-collectd-ws
 usr/share/doc/pce-consoleproxy/changelog.gz		    pce-consoleproxy
 usr/share/doc/pce-consoleproxy/copyright		    pce-consoleproxy
 usr/share/doc/pce-internal/changelog.gz			    pce-internal
