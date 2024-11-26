@@ -5,10 +5,10 @@ Maintainer: Pextra Inc. <debian@pextra.cloud>
 Installed-Size: 41
 Depends: pcecli, pce-internal, pce-consoleproxy, pce-collectd-ws
 Filename: pool/meta/pce-common/pce-common_1.4.7_amd64.deb
-Size: 12248
-MD5sum: 77f204cdf60c6aedff0d105803874331
-SHA1: f32031557dc03c4dfa1221f6b8ba812518066e6e
-SHA256: f19ed6c4844f56c46b77622caf341b908cd13cb7c88a69ad1391979d99ed22fe
+Size: 12244
+MD5sum: d624886bbac2e614f85f92eecebfa3dc
+SHA1: 381b505841161a08d3ae7966f6b29da8f182f9e8
+SHA256: 1ec532f98998c313dbb1105d3a44073983207f32aba6634c9fb55af877615358
 Section: metapackages
 Priority: optional
 Homepage: https://pextra.cloud/products/cloudenvironment
@@ -19,14 +19,14 @@ Package: pce-ose
 Version: 1.4.7
 Architecture: amd64
 Maintainer: Pextra Inc. <debian@pextra.cloud>
-Installed-Size: 45
+Installed-Size: 49
 Depends: pce-common, pcedaemon-ose, pceui-ose
 Conflicts: pce-enterprise, pcedaemon-enterprise, pceui-enterprise
 Filename: pool/meta/pce-ose/pce-ose_1.4.7_amd64.deb
-Size: 13080
-MD5sum: 4ecff0878017da91b948f63198dfb86e
-SHA1: 1079ad02d1ab3ff00f7560deb137442531892ad9
-SHA256: cf64ce05ddf88ea5e8b2e1b0266370246c3b9197cfe7bbdef65ef9aa0af0c184
+Size: 14292
+MD5sum: e209a76f0614b519db32a1324238badd
+SHA1: 41a4c7ebf04c94238e0997e5cf4dfac786c8b7c9
+SHA256: a4cdefb418becc919bc714059baeff105e5ee64e9d2f2d76effdabbf8f6700a2
 Section: metapackages
 Priority: optional
 Homepage: https://pextra.cloud/products/cloudenvironment
