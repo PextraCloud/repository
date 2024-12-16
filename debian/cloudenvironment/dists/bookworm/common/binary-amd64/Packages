@@ -4,10 +4,10 @@ Architecture: amd64
 Maintainer: Pextra Inc. <debian@pextra.cloud>
 Installed-Size: 5696
 Filename: pool/common/pce-collectd-ws/pce-collectd-ws_1.4.7_amd64.deb
-Size: 1966840
-MD5sum: 9b8528c52935233781da8c8d62250c4e
-SHA1: f4a3d246d7b3176a870a8738628430c93fde3409
-SHA256: f6d96f088ba74a3d8c6879fcc180109aef17e9920dcd8da897da267f113bc381
+Size: 1967296
+MD5sum: d20c878fd02c220816f6688e9cfc8a70
+SHA1: 41953372bb5ccaf80be2ac21761455b75d03b12f
+SHA256: 8bfde354d6a7f5833fcb0dda05644761b09acc18210357d281a7bab631d1edfb
 Section: admin
 Priority: optional
 Homepage: https://pextra.cloud/products/cloudenvironment
@@ -20,10 +20,10 @@ Architecture: amd64
 Maintainer: Pextra Inc. <debian@pextra.cloud>
 Installed-Size: 5474
 Filename: pool/common/pce-consoleproxy/pce-consoleproxy_1.4.7_amd64.deb
-Size: 1901504
-MD5sum: 31ae86829f028f088703e03f066ea6e6
-SHA1: 638a9b0654760b2a3fcb570fc40b9137d4968439
-SHA256: d69c88d4873507efecf308624510a79c20853108b7bd3158a756f2f6228b41e0
+Size: 1902164
+MD5sum: dcb1db6b125a84a27748ae7226435446
+SHA1: 12aa217b29c3f3c951d4e6fe70483a48cd2c3526
+SHA256: 7a36b22ca1166c5948527124f7f9efcd047230eede82c0e39002cf5e1a8240ad
 Section: admin
 Priority: optional
 Homepage: https://pextra.cloud/products/cloudenvironment
@@ -36,10 +36,10 @@ Architecture: amd64
 Maintainer: Pextra Inc. <debian@pextra.cloud>
 Installed-Size: 425
 Filename: pool/common/pce-internal/pce-internal_1.4.7_amd64.deb
-Size: 101300
-MD5sum: 965ab9c5c8e97cb90398f828d25c962c
-SHA1: 63c9d3fcfd6aa194f168ba6c040754b53a0e0be9
-SHA256: 208bc8c9112425a992c201bf438cd87ea6be11489e9035ee722baf67632cd23e
+Size: 101316
+MD5sum: f7ffbbe5dc1b4e199e694fc67af94730
+SHA1: 6a84654db7a1e4eea88abd0b30e9f346807ca2d7
+SHA256: 8709922160869464468f2be9867da82e6e39108eb8cee4f1a5c5354b27673c60
 Section: net
 Priority: optional
 Homepage: https://pextra.cloud/products/cloudenvironment
@@ -52,10 +52,10 @@ Architecture: amd64
 Maintainer: Pextra Inc. <debian@pextra.cloud>
 Installed-Size: 1222
 Filename: pool/common/pcecli/pcecli_1.4.7_amd64.deb
-Size: 266172
-MD5sum: 19a428e6f27802e48e5da81491bcbc91
-SHA1: 5b3b36a8482b225591c8beb105ee262f2a7643b4
-SHA256: c72173adbeb691b49bf25377f734918d96147419a451f77554d032efb1e3e37d
+Size: 266160
+MD5sum: f6ab703a172a24511dfc78d5c300206c
+SHA1: 7436ca9302a20175d42d557ed236f0f2db416a8f
+SHA256: ec1c892fe270448594a9a021e2ac59662d2e67a6dd83cd7f7c2c28052b6571d6
 Section: admin
 Priority: optional
 Homepage: https://pextra.cloud/products/cloudenvironment
