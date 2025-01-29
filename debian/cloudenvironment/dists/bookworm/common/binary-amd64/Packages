@@ -4,10 +4,10 @@ Architecture: amd64
 Maintainer: Pextra Inc. <debian@pextra.cloud>
 Installed-Size: 213067
 Filename: pool/common/cockroachdb/cockroachdb_1.6.4_amd64.deb
-Size: 49171760
-MD5sum: 02998c57f4e6f13243ea3bc7325a1c62
-SHA1: 216a6096e223ea7dfa8194decda68602a48ad58b
-SHA256: eb8152abd371f6de7c3bb3f2fb666e5a41ca60044f72e7393b6750040e8383d6
+Size: 49171600
+MD5sum: 1568c9009d0589663133834df3a81d5f
+SHA1: 6b925d10e46db59248f4d33dfacbd5906a81bd50
+SHA256: 6e8cb14cdb49100039620c2dbda4ff7fc359cd709766e1195ccbffe035989de1
 Section: admin
 Priority: optional
 Homepage: https://www.cockroachlabs.com/
@@ -19,10 +19,10 @@ Architecture: amd64
 Maintainer: Pextra Inc. <debian@pextra.cloud>
 Installed-Size: 5696
 Filename: pool/common/pce-collectd-ws/pce-collectd-ws_1.6.4_amd64.deb
-Size: 1967260
-MD5sum: d990271226b63db639b4619a7fd3873f
-SHA1: 74029935871db121463443aa859932dcd2423aa8
-SHA256: f14e82c0e294a808a71a8f8800d521da1a43c3c2a5a227886933f17fcca9a25e
+Size: 1967832
+MD5sum: 4f1ddbc8cecd79e850c29b47fb8ffce2
+SHA1: de46a4c00ba2d9197f60959c45cf027926fa166b
+SHA256: 4a9bfd343634ace4cd272c15720cdc500d8ad3859229621acba8b1f48658dc02
 Section: admin
 Priority: optional
 Homepage: https://pextra.cloud/products/cloudenvironment
@@ -35,10 +35,10 @@ Architecture: amd64
 Maintainer: Pextra Inc. <debian@pextra.cloud>
 Installed-Size: 5474
 Filename: pool/common/pce-consoleproxy/pce-consoleproxy_1.6.4_amd64.deb
-Size: 1901720
-MD5sum: a85aaaa26b4fa6d793cc70263d3b65d1
-SHA1: 8f2654a4209cd04edeece2ef8d666cb733953a1f
-SHA256: d44995f7d91823a227a72d185bd0b0eb0d83195cd0ede516240fd1d8722eb748
+Size: 1901592
+MD5sum: 739e2516427110fbf9d11dde1c86f6d2
+SHA1: e731ef4606ddf40c2bfcdf86006bc6a0ca9cf7e7
+SHA256: 2c8bdd2bf574b1a7868deb806e969e2111c5807078b9e4730a3cb9ade355d4cc
 Section: admin
 Priority: optional
 Homepage: https://pextra.cloud/products/cloudenvironment
@@ -51,10 +51,10 @@ Architecture: amd64
 Maintainer: Pextra Inc. <debian@pextra.cloud>
 Installed-Size: 460
 Filename: pool/common/pce-internal/pce-internal_1.6.4_amd64.deb
-Size: 109748
-MD5sum: c6c6d82b32ed62cc00c6391783140d11
-SHA1: 3bb8498ff6debd55ee74551702b980439f8902b5
-SHA256: a4a6568a13c715648970be5a43ebc409c0fd987c2b2bcd340179b2a0bbe35a4d
+Size: 109760
+MD5sum: 7bc326b0be94f5cedb3b76c6d9e60de9
+SHA1: fc5bc97b31bc835af3e21825339da6634509df80
+SHA256: 7a41a3b6a6fe62828ef73124baeda7dee85575c2a58b35832ee710ea4829b47e
 Section: net
 Priority: optional
 Homepage: https://pextra.cloud/products/cloudenvironment
@@ -67,10 +67,10 @@ Architecture: amd64
 Maintainer: Pextra Inc. <debian@pextra.cloud>
 Installed-Size: 1225
 Filename: pool/common/pcecli/pcecli_1.6.4_amd64.deb
-Size: 266636
-MD5sum: e719dbd2ecbe65c3bc56eb278b734b0d
-SHA1: f178279cae82dc6e7acb4aa3401d3b397d450a5a
-SHA256: b69423b00029b74d4cc4729ee05e81c43074a2a744da6af70f406ab5cdcb623d
+Size: 266760
+MD5sum: c0cd1128288024de8cb68ec1c2c7bf4d
+SHA1: 236b0830d122d3d07030d82489e4e7052b5668ab
+SHA256: b18b750da21772fa7f09d807f4ac6872cdc96cae7e8cca154ed529776c3e9b2b
 Section: admin
 Priority: optional
 Homepage: https://pextra.cloud/products/cloudenvironment
