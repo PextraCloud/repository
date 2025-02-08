@@ -1,28 +1,28 @@
 Package: cockroachdb
-Version: 1.6.6
+Version: 1.6.8
 Architecture: amd64
 Maintainer: Pextra Inc. <debian@pextra.cloud>
 Installed-Size: 213067
-Filename: pool/common/cockroachdb/cockroachdb_1.6.6_amd64.deb
-Size: 49171564
-MD5sum: 070ff0566300871b819a0220b8c44d37
-SHA1: 26832e653498285f749ae6faf9de80c7cf53b54e
-SHA256: b219b1741dd908084ce5c26bda9e78334f5f7e702b9b6c594a1d3dd0d1a0dd67
+Filename: pool/common/cockroachdb/cockroachdb_1.6.8_amd64.deb
+Size: 49174040
+MD5sum: 5a8cddf37d854d7710e8c5578cfefe17
+SHA1: 19e512aefce6d0e2f506243981a0b40a6cf1afe1
+SHA256: 1dd11c4686232ec5bc283319bb5f367715ae132cb08fb2c2bfc6aec6db78798c
 Section: admin
 Priority: optional
 Homepage: https://www.cockroachlabs.com/
 Description: Debian package for CockroachDB.
 
 Package: pce-collectd-ws
-Version: 1.6.6
+Version: 1.6.8
 Architecture: amd64
 Maintainer: Pextra Inc. <debian@pextra.cloud>
 Installed-Size: 5696
-Filename: pool/common/pce-collectd-ws/pce-collectd-ws_1.6.6_amd64.deb
-Size: 1967656
-MD5sum: e51f651fabbfa45e1f94c3060d28e1b7
-SHA1: b9234800cd6d9817c768228b0967303b35919470
-SHA256: 8d3fd0fb4b829f27a8dedcc31899df22a947e20f2b454869872acb151cce46bc
+Filename: pool/common/pce-collectd-ws/pce-collectd-ws_1.6.8_amd64.deb
+Size: 1968228
+MD5sum: 93553770137b6d6da5010e400e9b14c2
+SHA1: 04219007dc97affa9221e78b19c5a0878704e261
+SHA256: 0a12a1269aa85755cf55f2fb3919c33c5fdee13182b42be0a45e8636f2cd79cd
 Section: admin
 Priority: optional
 Homepage: https://pextra.cloud/products/cloudenvironment
@@ -30,15 +30,15 @@ Description: Internal collectd UDP to WebSocket proxy utility for Pextra CloudEn
  * This package is part of Pextra CloudEnvironment.
 
 Package: pce-consoleproxy
-Version: 1.6.6
+Version: 1.6.8
 Architecture: amd64
 Maintainer: Pextra Inc. <debian@pextra.cloud>
 Installed-Size: 5474
-Filename: pool/common/pce-consoleproxy/pce-consoleproxy_1.6.6_amd64.deb
-Size: 1901872
-MD5sum: 0d7582e487ceedab79cd7abd07ffda00
-SHA1: 3b7c4e1ace5bd2d39276f6311e7bf357734d6b87
-SHA256: bfd799dfff6c67f786d4c3fee07551364ae5bd14bfcf06af6dbc4f08b9331aab
+Filename: pool/common/pce-consoleproxy/pce-consoleproxy_1.6.8_amd64.deb
+Size: 1901828
+MD5sum: 02400d7dcc4b2afe7b29beaf2de7eefe
+SHA1: be44c8052f3c2d3dd48ce8b8f40499e73116c91e
+SHA256: 02fa6f9bda517845c4bca674ef671d33dc761bbe627e3c0b94826bd9556dbb7f
 Section: admin
 Priority: optional
 Homepage: https://pextra.cloud/products/cloudenvironment
@@ -46,15 +46,15 @@ Description: Internal console proxy utility for Pextra CloudEnvironment.
  * This package is part of Pextra CloudEnvironment.
 
 Package: pce-internal
-Version: 1.6.6
+Version: 1.6.8
 Architecture: amd64
 Maintainer: Pextra Inc. <debian@pextra.cloud>
 Installed-Size: 460
-Filename: pool/common/pce-internal/pce-internal_1.6.6_amd64.deb
-Size: 109780
-MD5sum: 1f828544ea193282158226f2376c0d86
-SHA1: 7a60500756ee80db5646fb3b8990d61465368833
-SHA256: 85912c20a21eef4aed9f9aad38ab0a88a57528c6c7a86f425f0fcf659f942cf9
+Filename: pool/common/pce-internal/pce-internal_1.6.8_amd64.deb
+Size: 109892
+MD5sum: c0452318e81d3b7cf7bef9b69fe1527b
+SHA1: dc9353010cd99004301dcf269bd1d00160265189
+SHA256: 253a3d26cfb1833cb137a68c30dc820a3238839d99ee2559ef7ce5da704095e1
 Section: net
 Priority: optional
 Homepage: https://pextra.cloud/products/cloudenvironment
@@ -62,15 +62,15 @@ Description: Package for managing certain internal components of Pextra CloudEnv
  * This package is part of Pextra CloudEnvironment.
 
 Package: pcecli
-Version: 1.6.6
+Version: 1.6.8
 Architecture: amd64
 Maintainer: Pextra Inc. <debian@pextra.cloud>
 Installed-Size: 1225
-Filename: pool/common/pcecli/pcecli_1.6.6_amd64.deb
-Size: 266616
-MD5sum: 5bd8c77bcd57c563cdd8b70eae159e36
-SHA1: 88707ea87880f70cd68fe0c219c537572dcddb25
-SHA256: 138a33efa1980ff6da43227dc35f939dfb7cdc199206e4376ffce9a5d83130fe
+Filename: pool/common/pcecli/pcecli_1.6.8_amd64.deb
+Size: 266644
+MD5sum: ae61500c93d2e6336c8179f514c2aacf
+SHA1: cfe14ec58ecc2354d307ecd55e3c2d72e0ba70be
+SHA256: ef84dbfb7c1b40d9ec75356b9a33bb01350823f4b398cf9e28b6d1cac8912024
 Section: admin
 Priority: optional
 Homepage: https://pextra.cloud/products/cloudenvironment
