@@ -5,10 +5,10 @@ Maintainer: Pextra Inc. <debian@pextra.cloud>
 Installed-Size: 41
 Depends: pcecli, pce-internal, pce-consoleproxy, pce-collectd-ws, cockroachdb
 Filename: pool/meta/pce-common/pce-common_1.6.8_amd64.deb
-Size: 12256
-MD5sum: 1911d61d7cff45cb17c1968ec72de695
-SHA1: d34b2f90f2bbf8ae80e61b993924d4daa4d39233
-SHA256: a1d72713cbff8684fac18088afea6fb21e6de816a1b561632c8012d290a3377d
+Size: 12260
+MD5sum: 6e6a6ad4a915ff2eaeb3c452270b03b2
+SHA1: d1e1187b6ce560c6ae5eff0dbcf71e2c53582f61
+SHA256: 301745d454f6372002783f85e76aeadcaa4a8b58e6e79b4c1b62d4a361d47da4
 Section: metapackages
 Priority: optional
 Homepage: https://pextra.cloud/products/cloudenvironment
@@ -23,10 +23,10 @@ Installed-Size: 49
 Depends: pce-common, pcedaemon-ose, pceui-ose
 Conflicts: pce-enterprise, pcedaemon-enterprise, pceui-enterprise
 Filename: pool/meta/pce-ose/pce-ose_1.6.8_amd64.deb
-Size: 14428
-MD5sum: 2b2d24868137af7c3ecd27dff2b51d30
-SHA1: 83eadabae8db0edbae8566995d594e823d67b664
-SHA256: e816d974d7852ef64df035bbd33fe85dbd6b8514846bbf3990d5136bcb1919a0
+Size: 14452
+MD5sum: a7e5f13873b6b89d637f1bbda1bc861a
+SHA1: 652713e5e1fe16c640539fa917280b0fce49d863
+SHA256: 2953a0346e1373ae13f7105da19731b81b2beba864475859db6222de02e1f92e
 Section: metapackages
 Priority: optional
 Homepage: https://pextra.cloud/products/cloudenvironment
