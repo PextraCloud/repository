@@ -1,4 +1,9 @@
+usr/bin/pcecli						    pcecli
+usr/lib/pce/pcecli/index.js				    pcecli
+usr/lib/pce/pcecli/pcecli				    pcecli
 usr/share/doc/pce-common/changelog.gz			    pce-common
 usr/share/doc/pce-common/copyright			    pce-common
 usr/share/doc/pce-ose/changelog.gz			    pce-ose
 usr/share/doc/pce-ose/copyright				    pce-ose
+usr/share/doc/pcecli/changelog.gz			    pcecli
+usr/share/doc/pcecli/copyright				    pcecli

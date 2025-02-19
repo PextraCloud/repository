@@ -24,12 +24,28 @@ Depends: pce-common, pcedaemon-ose, pceui-ose
 Conflicts: pce-enterprise, pcedaemon-enterprise, pceui-enterprise
 Filename: pool/meta/pce-ose/pce-ose_1.7.2_amd64.deb
 Size: 14432
-MD5sum: 4ee2f79462cc48ec80b2d32da75181aa
-SHA1: 6944e4deae1a8948d6751d09b08768a059aa0e26
-SHA256: 74de35788c0d304e50cd956b27d8d346ff401b1156ee14a0a3c82a1f7dc46197
+MD5sum: 12179f44c755679eed6cc22a8dd6c493
+SHA1: 06b8beb3b2918898aa86c9f6cf3f32dc4cf5364d
+SHA256: ef5ce0533e86334df6f197d968b76dbac6b2c2ed3e533a6cb867e8a468b84cb6
 Section: metapackages
 Priority: optional
 Homepage: https://pextra.cloud/products/cloudenvironment
 Description: Metapackage that installs Pextra CloudEnvironment Open-Source Edition.
+ * This package is part of Pextra CloudEnvironment.
+
+Package: pcecli
+Version: 1.7.2
+Architecture: amd64
+Maintainer: Pextra Inc. <debian@pextra.cloud>
+Installed-Size: 1225
+Filename: pool/meta/pcecli/pcecli_1.7.2_amd64.deb
+Size: 266644
+MD5sum: 189558465574b740a869b081cc1e55df
+SHA1: 24ff41491842b8439e8116635b50cdf8b27a8e2c
+SHA256: 9cbcb8bcdd99cec9ce3504b49a5004a034be91c0c91e177e5bbb48a21a17f413
+Section: admin
+Priority: optional
+Homepage: https://pextra.cloud/products/cloudenvironment
+Description: Command line interface for Pextra CloudEnvironment.
  * This package is part of Pextra CloudEnvironment.
 

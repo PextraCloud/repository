@@ -15,6 +15,8 @@ usr/share/doc/cockroachdb/changelog.gz			    cockroachdb
 usr/share/doc/cockroachdb/copyright			    cockroachdb
 usr/share/doc/pce-collectd-ws/changelog.gz		    pce-collectd-ws
 usr/share/doc/pce-collectd-ws/copyright			    pce-collectd-ws
+usr/share/doc/pce-common/changelog.gz			    pce-common
+usr/share/doc/pce-common/copyright			    pce-common
 usr/share/doc/pce-consoleproxy/changelog.gz		    pce-consoleproxy
 usr/share/doc/pce-consoleproxy/copyright		    pce-consoleproxy
 usr/share/doc/pce-internal/changelog.gz			    pce-internal
