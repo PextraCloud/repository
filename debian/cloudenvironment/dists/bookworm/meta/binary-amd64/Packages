@@ -1,14 +1,14 @@
 Package: pce-common
-Version: 1.7.5
+Version: 1.7.6
 Architecture: amd64
 Maintainer: Pextra Inc. <debian@pextra.cloud>
 Installed-Size: 41
 Depends: pcecli, pce-internal, pce-consoleproxy, pce-collectd-ws, cockroachdb
-Filename: pool/meta/pce-common/pce-common_1.7.5_amd64.deb
-Size: 12260
-MD5sum: 7496a4ae8ceeb5bf60b6707a04f07063
-SHA1: 10b85c638ab2b4a560a653be128b0f302f437f7c
-SHA256: b9f9ba85eaee45c81aaecf7a0b6ad2731d0dcaf58f8b408d0eda309391791268
+Filename: pool/meta/pce-common/pce-common_1.7.6_amd64.deb
+Size: 12248
+MD5sum: d1309ec1e6f899d497d9e07e4418615d
+SHA1: 81961929ae0d3660bd0d7955f3cc5179ef82dcf5
+SHA256: 763a5580c4bc8a3f218c46908f9c78317adeb07c2ad9f0b0d601857280b869d6
 Section: metapackages
 Priority: optional
 Homepage: https://pextra.cloud/products/cloudenvironment
@@ -16,17 +16,17 @@ Description: Metapackage that installs common components of Pextra CloudEnvironm
  * This package is part of Pextra CloudEnvironment.
 
 Package: pce-ose
-Version: 1.7.5
+Version: 1.7.6
 Architecture: amd64
 Maintainer: Pextra Inc. <debian@pextra.cloud>
 Installed-Size: 49
 Depends: pce-common, pcedaemon-ose, pceui-ose
 Conflicts: pce-enterprise, pcedaemon-enterprise, pceui-enterprise
-Filename: pool/meta/pce-ose/pce-ose_1.7.5_amd64.deb
+Filename: pool/meta/pce-ose/pce-ose_1.7.6_amd64.deb
 Size: 14432
-MD5sum: 317a5a558b098f80d867aa8a8c8d0451
-SHA1: 42429eeb5b2117e7d75c4af81b016f21a499217d
-SHA256: d27fd58cfdcf3761a6ec4d4e36ba0e191332388d27ae5d6b87a3fe124ac9e413
+MD5sum: c0ba68c576336ed99d3d59e5ceff97cd
+SHA1: fcf80909534d122ca1e4bdf15b4e8171bb31eaa6
+SHA256: efd9dddb0f85de7dcfc54e41478be74c065ed76947b6f9f961d30beccf796efd
 Section: metapackages
 Priority: optional
 Homepage: https://pextra.cloud/products/cloudenvironment
