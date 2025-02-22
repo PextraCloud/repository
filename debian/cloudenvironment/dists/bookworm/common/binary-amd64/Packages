@@ -1,28 +1,28 @@
 Package: cockroachdb
-Version: 1.7.6
+Version: 1.7.7
 Architecture: amd64
 Maintainer: Pextra Inc. <debian@pextra.cloud>
 Installed-Size: 213067
-Filename: pool/common/cockroachdb/cockroachdb_1.7.6_amd64.deb
-Size: 49168880
-MD5sum: 331f43a71271ae0831d9d9c00b71b76d
-SHA1: 18e01cff3824da0601c39dd69e9a4e77c7359e6a
-SHA256: da1ab91a408c5e925f8afe292adc8838c8bec860090d0dd6e7b919aa1255c09f
+Filename: pool/common/cockroachdb/cockroachdb_1.7.7_amd64.deb
+Size: 49172304
+MD5sum: 325aeb082836ce68520feba09c3cc4fd
+SHA1: 2cb23742997c4f7749e2addec03222249fc84e98
+SHA256: 13c872bc31ce190795ec98940efa9675ab4cb285bc06196a0b011ebb78e053e3
 Section: admin
 Priority: optional
 Homepage: https://www.cockroachlabs.com/
 Description: Debian package for CockroachDB.
 
 Package: pce-collectd-ws
-Version: 1.7.6
+Version: 1.7.7
 Architecture: amd64
 Maintainer: Pextra Inc. <debian@pextra.cloud>
 Installed-Size: 5696
-Filename: pool/common/pce-collectd-ws/pce-collectd-ws_1.7.6_amd64.deb
-Size: 1967732
-MD5sum: 5324c14b9bb1263e485fee1d22ebbd8a
-SHA1: 1742076fc26ee17cafe9dab103ed4bf68f87056f
-SHA256: ff6d0e85d7ebcda46181ddae29748302f3494cf8a1e7af2f1af5a03007ded316
+Filename: pool/common/pce-collectd-ws/pce-collectd-ws_1.7.7_amd64.deb
+Size: 1967052
+MD5sum: 98ec6a2f732d3c750849a97a3b471438
+SHA1: 13bb0f5ef49314afc0b76a9882266b44effe934c
+SHA256: 26488336476bedb45744e704a2d7347571a20730c23896b47f7c97ab288f6785
 Section: admin
 Priority: optional
 Homepage: https://pextra.cloud/products/cloudenvironment
@@ -47,15 +47,15 @@ Description: Metapackage that installs common components of Pextra CloudEnvironm
  * This package is part of Pextra CloudEnvironment.
 
 Package: pce-consoleproxy
-Version: 1.7.6
+Version: 1.7.7
 Architecture: amd64
 Maintainer: Pextra Inc. <debian@pextra.cloud>
 Installed-Size: 5474
-Filename: pool/common/pce-consoleproxy/pce-consoleproxy_1.7.6_amd64.deb
-Size: 1901840
-MD5sum: 9cd7ff41c1e8a2cab0bee09ca1821f88
-SHA1: e04a13202b09eedd46f9b6ee56e8d8f2599093e1
-SHA256: 4be5bd16f863d526c7736e3249ef5d0144c94be6a6cc70e55263986a11e0d941
+Filename: pool/common/pce-consoleproxy/pce-consoleproxy_1.7.7_amd64.deb
+Size: 1901628
+MD5sum: f6876647462959fc3a59431f3a3bd3e9
+SHA1: 8924fe420fa96fbef97d49d57042df9438d98024
+SHA256: 8023297899cc03d493381aabe578c43977c3c5706d9da18e573d731d2028a081
 Section: admin
 Priority: optional
 Homepage: https://pextra.cloud/products/cloudenvironment
@@ -63,15 +63,15 @@ Description: Internal console proxy utility for Pextra CloudEnvironment.
  * This package is part of Pextra CloudEnvironment.
 
 Package: pce-internal
-Version: 1.7.6
+Version: 1.7.7
 Architecture: amd64
 Maintainer: Pextra Inc. <debian@pextra.cloud>
 Installed-Size: 461
-Filename: pool/common/pce-internal/pce-internal_1.7.6_amd64.deb
+Filename: pool/common/pce-internal/pce-internal_1.7.7_amd64.deb
 Size: 109932
-MD5sum: 34c28ab0b78b4cf1fa12e1744ea5e7fb
-SHA1: e5126044a87ea03276f3b2e960f9dc2bdde882eb
-SHA256: 80356473845ba0548bb1d3ac04f7153c50040ed7793368cd5ea83179ddf71f74
+MD5sum: a5d9402064dad183048df60b7b906535
+SHA1: 9322dc502dd6069fe711181a35cdd1b3e3fe8db0
+SHA256: 3f71f2353fe02ff600a71b73cf870ea517eace97531465b050a42f7040c07eba
 Section: net
 Priority: optional
 Homepage: https://pextra.cloud/products/cloudenvironment
@@ -79,15 +79,15 @@ Description: Package for managing certain internal components of Pextra CloudEnv
  * This package is part of Pextra CloudEnvironment.
 
 Package: pcecli
-Version: 1.7.6
+Version: 1.7.7
 Architecture: amd64
 Maintainer: Pextra Inc. <debian@pextra.cloud>
 Installed-Size: 1225
-Filename: pool/common/pcecli/pcecli_1.7.6_amd64.deb
-Size: 266672
-MD5sum: 3a569434f5605255ef43aff9d7e7f378
-SHA1: 5ae33715d09910318e5dfa313ed471bccc009536
-SHA256: 2d56a62a4c9904bcd65598da809cb5bb645c3077caf4946d89dc8828447836d1
+Filename: pool/common/pcecli/pcecli_1.7.7_amd64.deb
+Size: 266700
+MD5sum: 6c61edcb9509ab13d514950fff06b344
+SHA1: 35e73b8ae071da2e8c3e35ed3ec9349d92853183
+SHA256: 081b0d1d1897fa5c3acb5e3272387f64150d99ef1a33ed3100c36313883d3b9a
 Section: admin
 Priority: optional
 Homepage: https://pextra.cloud/products/cloudenvironment
