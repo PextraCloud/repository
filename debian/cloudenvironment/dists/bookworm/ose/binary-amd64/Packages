@@ -1,14 +1,14 @@
 Package: pcedaemon-ose
-Version: 1.8.0
+Version: 1.8.2
 Architecture: amd64
 Maintainer: Pextra Inc. <debian@pextra.cloud>
-Installed-Size: 34292
+Installed-Size: 34293
 Conflicts: pce-enterprise, pcedaemon-enterprise
-Filename: pool/ose/pcedaemon-ose/pcedaemon-ose_1.8.0_amd64.deb
-Size: 1264080
-MD5sum: dcfe376ccf4b94a84cdec475665cd290
-SHA1: 4004444b124207b8c0367dc8d562ed1ef9f73994
-SHA256: c9ccc50f21ea2b7dbdff20a0f18aa4bdd5128a95a86d693796e84d3ca85f43df
+Filename: pool/ose/pcedaemon-ose/pcedaemon-ose_1.8.2_amd64.deb
+Size: 1264120
+MD5sum: 5a05d3ce0ea1f230fad1a97b5c3b8a22
+SHA1: 34b44bc2f8f45c7ecfe37cce95598770a21bc331
+SHA256: 2e461d4e15d4496b82c1919bda48c525dcd905e2c35f739f5460943199017c45
 Section: net
 Priority: optional
 Homepage: https://pextra.cloud/products/cloudenvironment
@@ -16,16 +16,16 @@ Description: System daemon for Pextra CloudEnvironment (Open-Source Edition).
  * This package is part of Pextra CloudEnvironment.
 
 Package: pceui-ose
-Version: 1.8.0
+Version: 1.8.2
 Architecture: amd64
 Maintainer: Pextra Inc. <debian@pextra.cloud>
 Installed-Size: 2521
 Conflicts: pce-enterprise, pceui-enterprise
-Filename: pool/ose/pceui-ose/pceui-ose_1.8.0_amd64.deb
-Size: 765628
-MD5sum: 2e0ca076ce9caaa0c1637ab9e8d54632
-SHA1: e85cd2c064e3949bb8545c5c0aadbb08ec479321
-SHA256: 47b93fb8468b78d45c2a30a7ff6bf1b48bbd230c37912b6acb7b75a0f1890af4
+Filename: pool/ose/pceui-ose/pceui-ose_1.8.2_amd64.deb
+Size: 765980
+MD5sum: 513574b194dc3a721e27d502aecb8d12
+SHA1: ace33d19e686fe3eafe89dc0176ae00bd95963dd
+SHA256: de70c0270680b1fbf5e5418b73b2a0723fa5ad4c1a9704b76fe596edfd0ed261
 Section: net
 Priority: optional
 Homepage: https://pextra.cloud/products/cloudenvironment
