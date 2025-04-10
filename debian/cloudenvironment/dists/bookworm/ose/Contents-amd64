@@ -27,6 +27,7 @@ usr/lib/pce/pcedaemon-ose/sshcrypto-64pncz08.node	    pcedaemon-ose
 usr/lib/pce/pceui-ose/assets/Card-wyW4U3Th.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/Console-2NdvTX-J.js	    pceui-ose
 usr/lib/pce/pceui-ose/assets/Console-2xq9ZMJk.js	    pceui-ose
+usr/lib/pce/pceui-ose/assets/Console-5e5SnSp4.js	    pceui-ose
 usr/lib/pce/pceui-ose/assets/Console-B1FOD-TR.js	    pceui-ose
 usr/lib/pce/pceui-ose/assets/Console-B7hFCOaj.js	    pceui-ose
 usr/lib/pce/pceui-ose/assets/Console-BKDw5j70.js	    pceui-ose
@@ -48,6 +49,7 @@ usr/lib/pce/pceui-ose/assets/Console-djhyjUCW.js	    pceui-ose
 usr/lib/pce/pceui-ose/assets/Console-yw_ywBs2.js	    pceui-ose
 usr/lib/pce/pceui-ose/assets/Container-BS38WHae.js	    pceui-ose
 usr/lib/pce/pceui-ose/assets/Container-BSBaT94A.js	    pceui-ose
+usr/lib/pce/pceui-ose/assets/Container-BxlDWhly.js	    pceui-ose
 usr/lib/pce/pceui-ose/assets/Container-C-stemYk.js	    pceui-ose
 usr/lib/pce/pceui-ose/assets/Container-C9x1hm4X.js	    pceui-ose
 usr/lib/pce/pceui-ose/assets/Container-CvMCLYI1.js	    pceui-ose
@@ -74,6 +76,7 @@ usr/lib/pce/pceui-ose/assets/InfoCard-CuN7pD7u.js	    pceui-ose
 usr/lib/pce/pceui-ose/assets/InfoCard-DAipQodt.js	    pceui-ose
 usr/lib/pce/pceui-ose/assets/InfoCard-DM7wXS_m.js	    pceui-ose
 usr/lib/pce/pceui-ose/assets/InfoCard-DQkqcsLN.js	    pceui-ose
+usr/lib/pce/pceui-ose/assets/InfoCard-DaKEv32K.js	    pceui-ose
 usr/lib/pce/pceui-ose/assets/InfoCard-QElq7lwG.js	    pceui-ose
 usr/lib/pce/pceui-ose/assets/InfoCard-WIzYINQh.js	    pceui-ose
 usr/lib/pce/pceui-ose/assets/InfoCard-guQkZZvU.js	    pceui-ose
@@ -87,6 +90,7 @@ usr/lib/pce/pceui-ose/assets/MainInfoContainer-BTfr2Yc0.js  pceui-ose
 usr/lib/pce/pceui-ose/assets/MainInfoContainer-BgHCex-S.js  pceui-ose
 usr/lib/pce/pceui-ose/assets/MainInfoContainer-Bz89AXoL.js  pceui-ose
 usr/lib/pce/pceui-ose/assets/MainInfoContainer-C5Wvgfta.js  pceui-ose
+usr/lib/pce/pceui-ose/assets/MainInfoContainer-CE29hDV8.js  pceui-ose
 usr/lib/pce/pceui-ose/assets/MainInfoContainer-CMYGochH.js  pceui-ose
 usr/lib/pce/pceui-ose/assets/MainInfoContainer-CcAXmkWk.js  pceui-ose
 usr/lib/pce/pceui-ose/assets/MainInfoContainer-CuglRK3H.js  pceui-ose
@@ -109,6 +113,7 @@ usr/lib/pce/pceui-ose/assets/PageWrapper-BwH_aBUM.js	    pceui-ose
 usr/lib/pce/pceui-ose/assets/PageWrapper-BxhaGrZv.js	    pceui-ose
 usr/lib/pce/pceui-ose/assets/PageWrapper-C0P-v8BK.js	    pceui-ose
 usr/lib/pce/pceui-ose/assets/PageWrapper-C1jUmzDe.js	    pceui-ose
+usr/lib/pce/pceui-ose/assets/PageWrapper-CQ492pPT.js	    pceui-ose
 usr/lib/pce/pceui-ose/assets/PageWrapper-C_I0aN6q.js	    pceui-ose
 usr/lib/pce/pceui-ose/assets/PageWrapper-Ca7Od1Xu.js	    pceui-ose
 usr/lib/pce/pceui-ose/assets/PageWrapper-DMJPeZpD.js	    pceui-ose
@@ -137,6 +142,7 @@ usr/lib/pce/pceui-ose/assets/SignIn-DPByOydU.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/SignIn-DPaOBxOw.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/SignIn-DckeOpGH.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/SignIn-IGSf8aL0.js		    pceui-ose
+usr/lib/pce/pceui-ose/assets/SignIn-bMLIqEKo.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/SignIn-ieiCxWu0.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/TextLimitedCell-4P9HIi-6.js    pceui-ose
 usr/lib/pce/pceui-ose/assets/TextLimitedCell-A22kekLZ.js    pceui-ose
@@ -150,6 +156,7 @@ usr/lib/pce/pceui-ose/assets/TextLimitedCell-CX5UjnDv.js    pceui-ose
 usr/lib/pce/pceui-ose/assets/TextLimitedCell-C_7-ve28.js    pceui-ose
 usr/lib/pce/pceui-ose/assets/TextLimitedCell-Cj13vPbg.js    pceui-ose
 usr/lib/pce/pceui-ose/assets/TextLimitedCell-Cxw_3lNs.js    pceui-ose
+usr/lib/pce/pceui-ose/assets/TextLimitedCell-D-neDABM.js    pceui-ose
 usr/lib/pce/pceui-ose/assets/TextLimitedCell-D0U9ve4l.js    pceui-ose
 usr/lib/pce/pceui-ose/assets/TextLimitedCell-D1zG2H9D.js    pceui-ose
 usr/lib/pce/pceui-ose/assets/TextLimitedCell-DBpc35g2.js    pceui-ose
@@ -205,6 +212,7 @@ usr/lib/pce/pceui-ose/assets/index-BR71RvNp.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-BRrIpKCO.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-BShhu2KY.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-BTodJ2Ae.js		    pceui-ose
+usr/lib/pce/pceui-ose/assets/index-BU2390iu.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-BUs08e1u.css		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-BUyDlMZs.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-BZ_Sc2bn.js		    pceui-ose
@@ -242,11 +250,13 @@ usr/lib/pce/pceui-ose/assets/index-CAh6s6_x.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-CD2vEkd7.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-CE3UWgzH.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-CEEUSJ6U.js		    pceui-ose
+usr/lib/pce/pceui-ose/assets/index-CGeqplPE.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-CGtfj5EA.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-CIHUESJ-.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-CJba3rsa.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-CJi69Udk.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-CLzgjT7G.js		    pceui-ose
+usr/lib/pce/pceui-ose/assets/index-CO0YqTsY.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-CO1X2-KX.css		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-CPqdyWCp.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-CS4ode00.js		    pceui-ose
@@ -275,6 +285,7 @@ usr/lib/pce/pceui-ose/assets/index-CzFKiWfm.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-D-VL_wqq.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-D7f4ghwK.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-D84wMT-B.js		    pceui-ose
+usr/lib/pce/pceui-ose/assets/index-D9sjNUlF.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-DBrXm1Vt.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-DEBulx3j.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-DEFZnDVI.js		    pceui-ose
@@ -292,6 +303,7 @@ usr/lib/pce/pceui-ose/assets/index-DaJxqm_f.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-DcXpLv19.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-DdPgOdVV.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-DeC9dUp_.js		    pceui-ose
+usr/lib/pce/pceui-ose/assets/index-Dhc-Ow2_.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-DiU1tZv2.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-DiVPBLNH.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-DjKnDOck.js		    pceui-ose
@@ -305,6 +317,7 @@ usr/lib/pce/pceui-ose/assets/index-DwwiwpMQ.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-DyUUpoAd.css		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-EEJKge-y.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-FRIlDKr8.css		    pceui-ose
+usr/lib/pce/pceui-ose/assets/index-HjkgUH4Q.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-IsnWL4z9.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-KQQsh8vB.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-MVYKYIox.js		    pceui-ose
@@ -314,11 +327,13 @@ usr/lib/pce/pceui-ose/assets/index-Q9UkWQiT.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-QcbNY9zS.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-QvXoycfM.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-SSpdcpqU.js		    pceui-ose
+usr/lib/pce/pceui-ose/assets/index-SkL1_wrx.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-Tiou0kKc.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-UobU4aFh.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-V3NrlTLR.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-XfKvwobu.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-Xgof3PwW.js		    pceui-ose
+usr/lib/pce/pceui-ose/assets/index-ZGzSBSpN.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-a_S5umNS.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-dj97bRGH.js		    pceui-ose
 usr/lib/pce/pceui-ose/assets/index-fJMvl1Qx.css		    pceui-ose
