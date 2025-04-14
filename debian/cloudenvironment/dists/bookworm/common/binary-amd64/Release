@@ -1,6 +1,6 @@
-Architectures: amd64
+Architectures: amd64 arm64 all
 Codename: bookworm
-Date: Thu, 10 Apr 2025 05:18:52 +0000
+Date: Mon, 14 Apr 2025 06:07:15 +0000
 Description: Pextra Inc. Debian repository
 Label: Pextra Inc.
 Origin: Pextra Inc.
