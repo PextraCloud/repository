@@ -1,0 +1,9 @@
+Codename: bookworm
+Suite: stable
+Version: 1.0
+Components: common meta
+Architectures: amd64 arm64
+Origin: Pextra Inc.
+Label: Pextra Inc.
+Description: Pextra Inc. Debian repository
+SignWith: F6C824A95B510F49ED4B0D640B4F9057C7DBDC41

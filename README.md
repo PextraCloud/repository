@@ -16,10 +16,10 @@ Check if your system's Debian version is supported by the repository. The follow
 
 ```bash
 # Add the GPG key for the repository (signed by the master key)
-curl -O /usr/share/keyrings/pextra-ce.gpg http://repo.pextra.cloud/debian/cloudenvironment/Release.gpg
+curl -O /usr/share/keyrings/pextra-ce.gpg http://repo.pextra.cloud/debian/cloudenvironment/key.gpg
 
 # Add the repository to the sources list
-echo "deb [signed-by=/usr/share/keyrings/pextra-ce.gpg] http://repo.pextra.cloud/debian/cloudenvironment bookworm common ose" > /etc/apt/sources.list.d/pextra-ce.list
+echo "deb [signed-by=/usr/share/keyrings/pextra-ce.gpg] http://repo.pextra.cloud/debian/cloudenvironment bookworm common meta" > /etc/apt/sources.list.d/pextra-ce.list
 
 # Update the package list
 apt update
@@ -29,4 +29,11 @@ From there, you can install any package from the repository using `apt install <
 
 ## Development
 
-Please refer to [this page](https://wiki.debian.org/DebianRepository/Format) for an explanation of the repository's structure and how to add new packages.
+This repository is managed with [reprepro](https://deb.moep.com/manual.html/).
+
+After building the packages, place them in the `incoming/<component>` directory, where `<component>` is the component of the package (e.g. `common`, `meta`, etc.). Run the following command to add the packages to the repository:
+
+```bash
+reprepro -b debian/cloudenvironment -C <component> includedeb bookworm incoming/<component>/*.deb
+```
+Replace `<component>` with the component of the package you want to add.
