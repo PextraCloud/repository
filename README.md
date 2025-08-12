@@ -16,10 +16,10 @@ Check if your system's Debian version is supported by the repository. The follow
 
 ```bash
 # Add the GPG key for the repository (signed by the master key)
-curl -O /usr/share/keyrings/pextra-ce.gpg http://repo.pextra.cloud/debian/cloudenvironment/key.gpg
+curl -fSsLo /usr/share/keyrings/pextra-ce.gpg https://repo.pextra.cloud/debian/cloudenvironment/key.gpg
 
 # Add the repository to the sources list
-echo "deb [signed-by=/usr/share/keyrings/pextra-ce.gpg] http://repo.pextra.cloud/debian/cloudenvironment bookworm common meta" > /etc/apt/sources.list.d/pextra-ce.list
+echo "deb [signed-by=/usr/share/keyrings/pextra-ce.gpg] https://repo.pextra.cloud/debian/cloudenvironment bookworm common meta" > /etc/apt/sources.list.d/pextra-ce.list
 
 # Update the package list
 apt update
