@@ -1,34 +1,34 @@
 Package: pce-common
-Version: 1.32.0+aa00541
+Version: 1.32.1+b275bc0
 Architecture: all
 Maintainer: Pextra Inc. <debian@pextra.cloud>
 Installed-Size: 41
-Depends: pcecli, pce-internal, pce-consoleproxy, pce-collectd-ws, pce-config, pxitool, pce-benchmark, cockroachdb
+Depends: pcecli, pce-internal, pce-consoleproxy, pce-collectd-ws, pce-config, pxitool, pce-benchmark, pce-docs, cockroachdb
 Homepage: https://pextra.cloud/cloudenvironment/
 Priority: optional
 Section: metapackages
-Filename: pool/meta/p/pce-common/pce-common_1.32.0+aa00541_all.deb
+Filename: pool/meta/p/pce-common/pce-common_1.32.1+b275bc0_all.deb
 Size: 12276
-SHA512: 9b1ba28f19eb2885b04ea31012bd6a98656473c4d8d1d8ab097399722b2c03ad44b3d5f598515fccf89ce4c4e83f8e2a9e44851ef76e5074e751d2d76a025e31
-SHA256: 5c99f6860680882b90a3b4373a519217951231334369bfef500fac9c9a003b3a
-SHA1: 629c010068eec55f9cdcd17db9ef0c0b9ea7561d
-MD5sum: 410bbcca0ca963f3314093556bae8215
+SHA512: 780100c09a9f5799b8b78bb5fc20e3fd4768ff4b1c5f6323aedce62f7695766bc563a037035c82425d05a47d92150ac5c7d3ef81bb49579ba4ebffa9cad08185
+SHA256: 40492c6fa647b3ce407171e579c4ecb60260921fc2b8694b231bdb4e30ee4dd1
+SHA1: b9ae3fb643844e7de4695f0508e7ecf3e64f1960
+MD5sum: 07ab619b114ac4a14bc6d0d595522565
 Description: Metapackage that installs common components of Pextra CloudEnvironment(R).
 
 Package: pce-ose
-Version: 1.32.0+aa00541
+Version: 1.32.1+b275bc0
 Architecture: all
 Maintainer: Pextra Inc. <debian@pextra.cloud>
-Installed-Size: 49
+Installed-Size: 50
 Depends: pce-common, pcedaemon, pceui
 Homepage: https://pextra.cloud/cloudenvironment/
 Priority: optional
 Section: metapackages
-Filename: pool/meta/p/pce-ose/pce-ose_1.32.0+aa00541_all.deb
-Size: 14372
-SHA512: ac1193833cfe08029c05939fce13fb20dc0662c4056b1c05b7d42f10422614716b316c7eefcc5e997d2ae47f3d11ceb8aed1c79ad1ce3b43907564511cda246f
-SHA256: 1b32bcf3930bc02319f1aa51b1e2f1cf4f92460c3c18e14fe2671d6b41971484
-SHA1: e01728d1e1a47e18119410ad820ee9ae4214b9f5
-MD5sum: a3fb3846fecf43947dfcf845eb4f186a
+Filename: pool/meta/p/pce-ose/pce-ose_1.32.1+b275bc0_all.deb
+Size: 14412
+SHA512: 13a96e8c826196151ab9479f7dbc2673a6bddfc869207ec98e8885fc135b35b27f2723acb79a8524323a7c7cad93052efb94b2eec06ddfd753e8c4ff48c17607
+SHA256: f5375e4a210c3156b27f27c2111995ba7fec9bee395222cfab619a2a6e1074e9
+SHA1: b065c93c4bc9d5d5b774e3aca8b4faa947eafff2
+MD5sum: 10be9f8f305e6fa65e5d47dc0df9fbb0
 Description: Metapackage that installs Pextra CloudEnvironment(R).
 
