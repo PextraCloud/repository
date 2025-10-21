@@ -1,5 +1,5 @@
 Package: pce-common
-Version: 1.41.0+0d5bbea
+Version: 1.42.0+8804876
 Architecture: all
 Maintainer: Pextra Inc. <debian@pextra.cloud>
 Installed-Size: 41
@@ -7,16 +7,16 @@ Depends: pcecli, pce-internal, pce-consoleproxy, pce-collectd-ws, pce-config, px
 Homepage: https://pextra.cloud/cloudenvironment/
 Priority: optional
 Section: metapackages
-Filename: pool/meta/p/pce-common/pce-common_1.41.0+0d5bbea_all.deb
-Size: 12276
-SHA512: c49758d8722d167b8a17689552fd41d0e0a5454fd8beb3b84ee202161ecbee42bf1570788dec37efdd7bfdb589baeb765cb5577ead6fd026af9ebdd256a02ebb
-SHA256: 52394d7517e6890c68f9c92628def7d082425d05f47764556c79e59dc7f5f279
-SHA1: 326242fa8c6449ccc7dfc144dee2ffb5c6ed2f08
-MD5sum: 22a3fa4701906a104c0fc658dd0efbed
+Filename: pool/meta/p/pce-common/pce-common_1.42.0+8804876_all.deb
+Size: 12284
+SHA512: 70c30ac30342807dbb2408b97179969e365ff0406e02d7344dfc1c4c5f54919e62daf052a1127f6b6ffe4e89b48aaae7bd9364ccafe2b42a7ab574cbd93280ef
+SHA256: 6184032bcf7f8ecb65855951893f81709229aa960ff58a06bf3abe856a66e178
+SHA1: 7a4085754685316b8b70774928bf2639d560b95a
+MD5sum: b6ed47201e121f3d7e587526f43d8f37
 Description: Metapackage that installs common components of Pextra CloudEnvironment(R).
 
 Package: pce-ose
-Version: 1.41.0+0d5bbea
+Version: 1.42.0+8804876
 Architecture: all
 Maintainer: Pextra Inc. <debian@pextra.cloud>
 Installed-Size: 50
@@ -24,11 +24,11 @@ Depends: pce-common, pcedaemon, pceui
 Homepage: https://pextra.cloud/cloudenvironment/
 Priority: optional
 Section: metapackages
-Filename: pool/meta/p/pce-ose/pce-ose_1.41.0+0d5bbea_all.deb
-Size: 14424
-SHA512: 36bff22d6756aaa1de8658202e98802598f58a754b3ff183ea7c7eb76f24ffbdf35613ec2b86b80b245b33fc5d2d840a320f8e468ab29ee4666488610d63646c
-SHA256: 57fe86a1e2cd26b447f72eae7889a0fd5ad9abc44c6a663afc6ad0431ce135ce
-SHA1: 786a03270cf406a0d17859aa1a990ed81884d6a2
-MD5sum: a550d1bcd32606fca6554db858514019
+Filename: pool/meta/p/pce-ose/pce-ose_1.42.0+8804876_all.deb
+Size: 14432
+SHA512: 4add7a9a769509a14f2859c80e172a62e6c4627ef46c8debe4e88e3f619e82a5ff901898585d1f36306f6a6478ab5e393c4e4bdced4cf71e323964422136b574
+SHA256: 1a54a18bf06f14435af30cfa3fd59fd52fd525388c18f70df84aed8eb08d6f00
+SHA1: ba6a13e052c12b029e9cddc8c44c54e926869320
+MD5sum: 9e58d27834aea3c566deddff940c6916
 Description: Metapackage that installs Pextra CloudEnvironment(R).
 
