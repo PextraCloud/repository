@@ -1,216 +1,217 @@
 Package: cockroachdb
-Version: 1.46.0+3fde6ff
+Version: 2.0.0+a683fcb
 Architecture: arm64
 Maintainer: Pextra Inc. <debian@pextra.cloud>
-Installed-Size: 202400
+Installed-Size: 202398
 Depends: libc6 (>= 2.34)
 Homepage: https://www.cockroachlabs.com/
 Priority: optional
 Section: admin
-Filename: pool/common/c/cockroachdb/cockroachdb_1.46.0+3fde6ff_arm64.deb
-Size: 44470972
-SHA512: 3c7defd5e48da5912ebaa1b9189d3f5bf031766c04d817563c6947195c438d8d86b33aae2fe188ea0c883f539ee8f978d1f6c1aa8ae0a159f285d63770734e93
-SHA256: 29cd5c5585217a6724a0b9983c04a59238d6a039505549483aed79877584c610
-SHA1: 1cc5ed09c3b403190ee3498ee98d8d374c721c6e
-MD5sum: d97961960708a08b0a7705f07897a197
+Filename: pool/common/c/cockroachdb/cockroachdb_2.0.0+a683fcb_arm64.deb
+Size: 44467404
+SHA512: d21693655894929bfc047cd6096c0dffdd0f90360c660cb343c443b6025610e3413f64d91387ab25c1462db24a62c6ddc7c05fde487b155295022a5c7dda1d3c
+SHA256: 65d73f53f7df17b0a2a0c645fedfdb304b6c8c3b085992468445c0277253157e
+SHA1: a4cd1fd2a835bc321b2f9b012fb068adcf9bcacb
+MD5sum: 4723aa08286b5827d194bd0aff00edbf
 Description: Debian package for CockroachDB.
 
 Package: pce-benchmark
-Version: 1.46.0+3fde6ff
+Version: 2.0.0+a683fcb
 Architecture: arm64
 Maintainer: Pextra Inc. <debian@pextra.cloud>
-Installed-Size: 3197
+Installed-Size: 3133
 Depends: iperf3
 Homepage: https://pextra.cloud/cloudenvironment/
 Priority: optional
 Section: admin
-Filename: pool/common/p/pce-benchmark/pce-benchmark_1.46.0+3fde6ff_arm64.deb
-Size: 946752
-SHA512: ea0ecf5d793968f521e3b15caf90ecf10a52e91ca700e46124c8df2bc5cd9bbef50615fa06481ff4c544f1a79032a48ee8996714489614bf68894b7f177b54e3
-SHA256: 61f9f322444f3982e67aef4f0b442fd16923f99aaa7378efb81c20f7362d738a
-SHA1: 502a89627478a3e332f2f178566fd3f7bd199f2b
-MD5sum: 0a9e8dfd069de957e2c9cf2a31883db5
+Filename: pool/common/p/pce-benchmark/pce-benchmark_2.0.0+a683fcb_arm64.deb
+Size: 946932
+SHA512: f19f2743a2c34dba09c80f7b8db6c8789dbbefae4747f13d16b4e042189e0ceaaa5a099b5f08acea66e140f7e0cefe9340d8a79292b8cae167aa109f5f8dd1f6
+SHA256: 3cb2088854c7af407031b3bfd3717367eb1d27a63eeab429cc76ac95c301e999
+SHA1: e1a812cc86515166776b06a663470d2d8bac3b6f
+MD5sum: 74bc95e9a7630e0f6d1fb523ade7561b
 Description: CLI tool for performing server benchmarks. For Pextra CloudEnvironment(R).
 
 Package: pce-collectd-ws
-Version: 1.46.0+3fde6ff
+Version: 2.0.0+a683fcb
 Architecture: arm64
 Maintainer: Pextra Inc. <debian@pextra.cloud>
-Installed-Size: 5368
+Installed-Size: 5644
 Homepage: https://pextra.cloud/cloudenvironment/
 Priority: optional
 Section: admin
-Filename: pool/common/p/pce-collectd-ws/pce-collectd-ws_1.46.0+3fde6ff_arm64.deb
-Size: 1675508
-SHA512: fc10356780f6e0b57551bf64482eb631be1a574d8b0cbd70eb64c037ad9d5a0b0a5a347e13bc92c34f91d5c8aceaa6b75aa3b18fc2d3faba90f9583c68bae579
-SHA256: 8603fee68a9df0e66e1d28d7b6a76ce90a2dee2f2164d88017034e46850c5740
-SHA1: bf1155882947916ca4e3ee9201c6de79edc27317
-MD5sum: 848b42294d3f17cf9ffdb44f16ab3cd0
+Filename: pool/common/p/pce-collectd-ws/pce-collectd-ws_2.0.0+a683fcb_arm64.deb
+Size: 1753348
+SHA512: 5e7bfa87d53fe013ba5bebee8b143c85a8f892782ffd21d25ecc4f559dcc425c86ad0f95c8fdf6ae9b9709139df86dd89e191cba4fe264e3fa6ed18ba3fd936c
+SHA256: 8598fbbc04779f2def6bb9b8701a090c6ea184e8b33b0c604219cc5f880a4ba9
+SHA1: 1f0a8150a198b8068b7b4884cd73297e6192f359
+MD5sum: e3c66ad36a99b2fe5f037d95eb78a5ff
 Description: Internal collectd UDP to WebSocket proxy utility for Pextra CloudEnvironment(R).
 
 Package: pce-config
-Version: 1.46.0+3fde6ff
+Version: 2.0.0+a683fcb
 Architecture: all
 Maintainer: Pextra Inc. <debian@pextra.cloud>
-Installed-Size: 21
-Depends: libvirt-daemon-system, collectd, perl:any
+Installed-Size: 37
+Depends: libvirt-daemon-system, collectd, caddy, cockroachdb, perl:any
 Homepage: https://pextra.cloud/cloudenvironment/
 Priority: optional
 Section: admin
-Filename: pool/common/p/pce-config/pce-config_1.46.0+3fde6ff_all.deb
-Size: 3676
-SHA512: a05d7a5a8057ab361ac8db39f58851eb0b3430e468296d5ba04a491fcbc6a2a581f939dcb76036ec95a8f9236e867e8110958cafe38e59920c5db2acc0a7254d
-SHA256: 2fd8d49c6eac7f83b9e706deeadd9858f05b8d371b495f68e6c98d183bf15c58
-SHA1: 871237e686686ec08b4eaeaa8ea2ca37d9d607a1
-MD5sum: cf2a26e102331ac1f7340d976bff0ff2
+Filename: pool/common/p/pce-config/pce-config_2.0.0+a683fcb_all.deb
+Size: 6384
+SHA512: 35f51218d831ca4f3116b8e4dcb819d472ffd276b562ff9afd180ae54cb3fea3527e1b44dc1f7ada66e51c1250a01753147e9edcc0dacebe8b6466a11b11a6f7
+SHA256: 3a910f3511441f0fe4d2876c9680126e79277c1f0fee7d9f0eb4bfc97db7b3f4
+SHA1: eb5d06aac6d3ef91e1d91695ee750bb8a4650ddf
+MD5sum: 3d02533b75587a4a623e7b20fb162473
 Description: Package that includes configuration files related to Pextra CloudEnvironment(R).
 
 Package: pce-consoleproxy
-Version: 1.46.0+3fde6ff
+Version: 2.0.0+a683fcb
 Architecture: arm64
 Maintainer: Pextra Inc. <debian@pextra.cloud>
-Installed-Size: 5159
+Installed-Size: 5501
 Homepage: https://pextra.cloud/cloudenvironment/
 Priority: optional
 Section: admin
-Filename: pool/common/p/pce-consoleproxy/pce-consoleproxy_1.46.0+3fde6ff_arm64.deb
-Size: 1621832
-SHA512: 1092e3e2087a84d8d6a6a6b2c718f14b06a22afc92e8134c75d603a23a49cb456072c0a7469431259204f80f9bc7a1e2eec78eb702f2f5b7b8b0a156858f5acc
-SHA256: c6cb24f9b5439c8d02800d4f233577604c12f1bd3a7c11a79f6d7b7f89ba1cf3
-SHA1: 2dd131d565a4e553940398c7a44e1174c9d21301
-MD5sum: 2cfde71032a98669a0facf97d55c28a4
+Filename: pool/common/p/pce-consoleproxy/pce-consoleproxy_2.0.0+a683fcb_arm64.deb
+Size: 1702748
+SHA512: 39134e73522eeb8248117bb4bce1d5f4b84a15d146d75c78f2776bd1b8a9e2529e7267fc119d14f519810a1d71957b8533add4922675ed472051e0eccb951890
+SHA256: 4079e3751e21d7b48c861e54aaf87c79fa50d2fb4186be3a1ee6782f5ef4768d
+SHA1: 3e185c86ba5586d6fe5709ae2b06d1fa97226d0b
+MD5sum: d129df9faf58c048c05d34f851ed6b94
 Description: Internal console proxy utility for Pextra CloudEnvironment(R).
 
 Package: pce-docs
-Version: 1.46.0+3fde6ff
+Version: 2.0.0+a683fcb
 Architecture: all
 Maintainer: Pextra Inc. <debian@pextra.cloud>
-Installed-Size: 19386
+Installed-Size: 21803
 Homepage: https://docs.pextra.cloud/
 Priority: optional
 Section: admin
-Filename: pool/common/p/pce-docs/pce-docs_1.46.0+3fde6ff_all.deb
-Size: 12715344
-SHA512: d5e776db8719b93d461563d15812d780498c8decd5518dcbc4d12fb5f72486cb66833c28847e955320d1ee36609edf5bf812f7ee821cbff53e0ca30edbc6207a
-SHA256: 0b9a2364bb71b48c12c2c296311fe192f22e7768ac030944ace2d8c25f624c02
-SHA1: cfa95230605dbeb4d7842118fb440a981409ce0d
-MD5sum: 2f3030b14aefdb94153a130e372ae71b
+Filename: pool/common/p/pce-docs/pce-docs_2.0.0+a683fcb_all.deb
+Size: 14183264
+SHA512: 6b0d5881ee6025cea12407bd18b9a36249dec77a50a7b1fb940876202005c98a70aa057e7f5c9f021b02c1f6fbcec636e5b6d1e9e93e2f8ecde9df2451508ebb
+SHA256: c3910862843a09880510d30679936cc0e08dd1946b7dfed455dba26c9622f75a
+SHA1: 96a7cb7a44c9019955d9a658fd234769e9d0bd81
+MD5sum: c7786615cd5144cb192ffa549c18ba79
 Description: Package that includes an offline HTML mirror of the Pextra CloudEnvironment(R) documentation, available through the web interface. The latest version of the documentation is always available online at https://docs.pextra.cloud/.
 
 Package: pce-imds
-Version: 1.46.0+3fde6ff
+Version: 2.0.0+a683fcb
 Architecture: arm64
 Maintainer: Pextra Inc. <debian@pextra.cloud>
-Installed-Size: 6248
+Installed-Size: 6182
 Homepage: https://pextra.cloud/cloudenvironment/
 Priority: optional
 Section: admin
-Filename: pool/common/p/pce-imds/pce-imds_1.46.0+3fde6ff_arm64.deb
-Size: 1884432
-SHA512: 00ad5e1602917ce211b2493a04498c5a3ada588abd390cf1b08c859d03c76268377bde61eac3a51921950c2154b399e1f3def9173cac43f1a4cd7e6629e3fed5
-SHA256: ceb3a0f51525f0eec4ee67737dcd63a1c3912071670c7b255ba731a2d82ab365
-SHA1: e16e2bb894ea0e80d61bc14038b95b8e8296ff3c
-MD5sum: 88bd6cd464814e5f7b4af868685cb7bc
+Filename: pool/common/p/pce-imds/pce-imds_2.0.0+a683fcb_arm64.deb
+Size: 1884360
+SHA512: b24ce146d72076e917ed516775da55457564af722ba3ed9fdb4ceea1275ac14cad36e26c9748f416aa6406d555f62b88f08277e489852c04c2b5f0931e5815a3
+SHA256: bb2cebc466d715b58d61acdc23937db475269eb93ac4869b62f72701d3a1e8be
+SHA1: 122c2da7778f2f90545cb041e3a713395b8b30a3
+MD5sum: 66a77a625967c0f041e84e9208dfec34
 Description: IMDSv2 (EC2-compatible) metadata service for gleaning instance metadata from within an instance. For Pextra CloudEnvironment(R).
 
 Package: pce-internal
-Version: 1.46.0+3fde6ff
+Version: 2.0.0+a683fcb
 Architecture: all
 Maintainer: Pextra Inc. <debian@pextra.cloud>
-Installed-Size: 440
+Installed-Size: 552
+Depends: pce-config
 Homepage: https://pextra.cloud/products/cloudenvironment
 Priority: optional
 Section: net
-Filename: pool/common/p/pce-internal/pce-internal_1.46.0+3fde6ff_all.deb
-Size: 102152
-SHA512: feb3c02873d2723923dc420d3a897cbfe901eabd90b1d951c8211b2b830e70e42aefd3ad404f19609da196f9544fff69868bf032c1e8f78f70fe43b8ccd14e08
-SHA256: 3104d1d081e2a618bba0ac46a0ce66d78688ec24abe568f547a3697239ff9cb9
-SHA1: ab858a64411f05a2a8aea5d0f5bbfa38b3c1eec9
-MD5sum: 5bf2d971f1450ea9a5704fd1df87cf78
+Filename: pool/common/p/pce-internal/pce-internal_2.0.0+a683fcb_all.deb
+Size: 111900
+SHA512: 60be74b041881f698bd3b682a1818732e6f0641864040512d394cf1b5283a984f5b184886235b49134866552c60eb21ef152aea7e6ef59ceae1ad50e75e3e6ae
+SHA256: 884d8d1aa8fd809c5bbe10c6c2ab9afc4a606c6c9c5de7b4724b4da4971b9eed
+SHA1: 012bf145ccd4226b33729c56402458a3910817dd
+MD5sum: bddf1ef7ac63d5d84359442d8410901c
 Description: Package for managing certain internal components of Pextra CloudEnvironment(R).
 
 Package: pce-mcp
-Version: 1.46.0+3fde6ff
+Version: 2.0.0+a683fcb
 Architecture: arm64
 Maintainer: Pextra Inc. <debian@pextra.cloud>
-Installed-Size: 9296
+Installed-Size: 7508
 Homepage: https://github.com/PextraCloud/pce-mcp/
 Priority: optional
 Section: admin
-Filename: pool/common/p/pce-mcp/pce-mcp_1.46.0+3fde6ff_arm64.deb
-Size: 2653092
-SHA512: daa9663fadfcc983431aa3f4229d108e211c890df6063a7fe5aaef072a96b004f268d936238fe55bbeb727eca6cb2dd449e305f85563846a3a0e64aa382721a3
-SHA256: 290c4fc62d247dd69825a4d1dc83ac6017f4ee814d8647294233d2d29b25f363
-SHA1: dccf7f44b967e0d6fb6fb6c15801147149e684a8
-MD5sum: 25fe8629be0c197d65c93f1a16267ebf
+Filename: pool/common/p/pce-mcp/pce-mcp_2.0.0+a683fcb_arm64.deb
+Size: 2236064
+SHA512: f1fe8fc7bbf886a9073efeb5e64b6d4da2d943c2186d983e94cecc804abfce875b83b51b0e2a265c8a9f8ce25647178035239aec1ee743e087d17ca40a58ed18
+SHA256: 2e061ba378736c21e225cc19dad0a6c289aa5e2c91e3b2ee25959e3b91436d72
+SHA1: 578811c56f36691cbd42d4046e1e3116a4bb936d
+MD5sum: f7cc2dd6f24c0410b22ba2c0d8bc8918
 Description: Model Context Protocol (MCP) server for Pextra CloudEnvironment(R).
 
 Package: pcecli
-Version: 1.44.2+a828ee5
+Version: 2.0.0+a683fcb
 Architecture: all
 Maintainer: Pextra Inc. <debian@pextra.cloud>
-Installed-Size: 1190
+Installed-Size: 1194
 Homepage: https://pextra.cloud/products/cloudenvironment
 Priority: optional
 Section: admin
-Filename: pool/common/p/pcecli/pcecli_1.44.2+a828ee5_all.deb
-Size: 256248
-SHA512: 93930ebb44425238e71be9259541c72875d3b50634c05b2c0aced8c5395961486ca6a5b3353b22f09694b67bb0b8ccf3272418fd12272ee22b5b82fbe2d784c6
-SHA256: f753a5b8e6050a23fca8b45a5482de116f0a2baed44790ac575e8425a4533a59
-SHA1: cedde72d45d5e6d808ee1cc25a99dcd2125ee30d
-MD5sum: 6f7eba3ff20fcf8f45f46110098f44d7
+Filename: pool/common/p/pcecli/pcecli_2.0.0+a683fcb_all.deb
+Size: 257740
+SHA512: 345072826091a5343cb484b722fe8ac0fe6bcf32f552ee98f68ac3f91f34371dfe04d002060889b146f903e9a6e2e0808a1f373a538a49095076206123836539
+SHA256: e4074a2f12ef2caa95669e6813064a6aaecb234f6fe2df9cca79d85331cbdc91
+SHA1: 28670f351e9ebbf360a11b19e05b4f34034802fd
+MD5sum: 9d6632aa65224ca21c0779a7ebcedd5e
 Description: Command line interface for Pextra CloudEnvironment(R).
 
 Package: pcedaemon
-Version: 1.46.0+3fde6ff
+Version: 2.0.0+a683fcb
 Architecture: all
 Maintainer: Pextra Inc. <debian@pextra.cloud>
-Installed-Size: 49953
+Installed-Size: 40955
 Depends: sudo, rsync, sshpass
 Conflicts: pcedaemon-ose
 Replaces: pcedaemon-ose
 Homepage: https://pextra.cloud/cloudenvironment/
 Priority: optional
 Section: net
-Filename: pool/common/p/pcedaemon/pcedaemon_1.46.0+3fde6ff_all.deb
-Size: 2127556
-SHA512: 51e9b2d332a6145d9f1addc1c081f341275abab507efd559b0cfe09a19c15b781b71aaaaff9c81b62fa24c7736e6927cd27842b6d90412eddf173b004bb78115
-SHA256: f081f912e10463306bd79cf807915e46db045b19d778018d67906ed1280560ff
-SHA1: 8fe79b0e985b8fb515633f6c7dc6a0562da81f9e
-MD5sum: d399d0ded72a3a7a4d5ab8a06b686947
+Filename: pool/common/p/pcedaemon/pcedaemon_2.0.0+a683fcb_all.deb
+Size: 2143092
+SHA512: d3594eea789d6d6b03a4c6b5508d9846d991bc6b9153088a26719dd095b9c115dc63172e35b9a17398a4e5fc303f52f3d0b9a5e61f10c45e6ebcd766448586b0
+SHA256: 82e5e3f8c04523fe19ca3303666b04aa09487567f079a1e823aee83e8eaea965
+SHA1: 4196ca232baffb9ab55924c57def8ced0d2ab34e
+MD5sum: 86c31f67efcadcb361a1526c9961eb9f
 Description: System daemon for Pextra CloudEnvironment(R).
 
 Package: pceui
-Version: 1.46.0+3fde6ff
+Version: 2.0.0+a683fcb
 Architecture: all
 Maintainer: Pextra Inc. <debian@pextra.cloud>
-Installed-Size: 2891
+Installed-Size: 3150
 Conflicts: pceui-ose
 Replaces: pceui-ose
 Homepage: https://pextra.cloud/cloudenvironment/
 Priority: optional
 Section: net
-Filename: pool/common/p/pceui/pceui_1.46.0+3fde6ff_all.deb
-Size: 854876
-SHA512: 40c55b71e5bb6d344ba8c7b80f47f1db9ae6586780f8b5ae8ef961b4fdfeb9d1ef2f868079460dd796a55f66c40c4a5d5a09b7d2470c692cf36310d14dc5b207
-SHA256: a44c51982e452ed9a8368eed780dd7b556a22b5075b14a858fec11300fa32216
-SHA1: 29a85357ec40d3290644e0ce50e02d8843dced6c
-MD5sum: 35a06f2b159709a75ab795cd29f52912
+Filename: pool/common/p/pceui/pceui_2.0.0+a683fcb_all.deb
+Size: 881972
+SHA512: 1532ff100f73d82eeb8625059e08a79f8819be794da6d2ad51cddce2025677904517830e0fbbec250d17fa29b05821f5de12074368585c6a546988fb8dade49b
+SHA256: 4ba66a48e7632cef90181b56377525243f66984ce6586f78969a95a13592c2e0
+SHA1: 5f8c28e09b1d5ba556fb6e9134c1590b8344bd42
+MD5sum: e8b29e9d0edc45a7f4d3e4ec8736943e
 Description: Web UI for Pextra CloudEnvironment(R).
 
 Package: pxitool
-Version: 1.46.0+3fde6ff
+Version: 2.0.0+a683fcb
 Architecture: arm64
 Maintainer: Pextra Inc. <debian@pextra.cloud>
 Installed-Size: 3215
 Homepage: https://github.com/PextraCloud/pxitool/
 Priority: optional
 Section: admin
-Filename: pool/common/p/pxitool/pxitool_1.46.0+3fde6ff_arm64.deb
-Size: 962100
-SHA512: 3ad3922d2e2be283b411fe9268d5f925d7b81a3a69a8f73928b8d1bcd2d1cf6dcbfbb20c9f2eda278f0967fc0ead1261f05dae878c68b389b77769da5cb2b317
-SHA256: b7c17dfa4066f3f07e0c7768a19dd0d0dbc604dc3dd6d3135b89a2392ed5582c
-SHA1: e52f33b2cdc331ec94dd384f0daa3b39c98886f2
-MD5sum: 076e74818f040233b0c0236e475b5e3a
+Filename: pool/common/p/pxitool/pxitool_2.0.0+a683fcb_arm64.deb
+Size: 962780
+SHA512: 680004fffa9b4de1b795cba18c0a8669eab0f25ccdd92d722c8c115146384218fd364044395041f121295920160c145238ded1a4c26aae07936c2e5d4ad1b85e
+SHA256: d08caba671aee026f79b238c6a237530d9f5784499240fc82842fb7079db06dd
+SHA1: 3fc6e7729ee00297bba5608416c33904c57a4ee4
+MD5sum: e455414fa18e5941ede9cf07d329dca4
 Description: CLI tool for working with .pxi files (Pextra Images). For Pextra CloudEnvironment(R).
 
