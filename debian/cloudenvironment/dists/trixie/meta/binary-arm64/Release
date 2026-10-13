@@ -1,0 +1,7 @@
+Archive: stable
+Version: 1.0
+Component: meta
+Origin: Pextra Inc.
+Label: Pextra Inc.
+Architecture: arm64
+Description: Pextra Inc. Debian repository

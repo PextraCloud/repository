@@ -1,0 +1,7 @@
+Archive: stable
+Version: 1.0
+Component: common
+Origin: Pextra Inc.
+Label: Pextra Inc.
+Architecture: amd64
+Description: Pextra Inc. Debian repository
